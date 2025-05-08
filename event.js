@@ -30,7 +30,11 @@ export const event = {
         longitude: "10.4969224"
       },
     },
-    image: ["https://nesselwang-competition.vercel.app/og.jpg"],
+    image: [
+        "https://nesselwang-competition.vercel.app/images/1x1.jpg",
+        "https://nesselwang-competition.vercel.app/images/4x3.jpg",
+        "https://nesselwang-competition.vercel.app/images/16x9.jpg"
+    ],
   };
   export const formattedDate = new Date(event.startDate).toLocaleDateString(
     "de-DE",
