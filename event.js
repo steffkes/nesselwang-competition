@@ -25,6 +25,7 @@ export const event = {
         addressCountry: "DE",
       },
     },
+    image: ["https://nesselwang-competition.vercel.app/og.jpg"],
   };
   export const formattedDate = new Date(event.startDate).toLocaleDateString(
     "de-DE",

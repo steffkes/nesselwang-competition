@@ -2,6 +2,7 @@
 const { event, formattedDate } = await useEvent();
 
 useSeoMeta({
+  ogImage: "/og.jpg",
   ogTitle: event.name,
   ogDescription: event.description + " @ " + formattedDate,
 });
