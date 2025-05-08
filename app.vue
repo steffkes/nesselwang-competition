@@ -50,17 +50,10 @@
       </div>
     </section>
 
-
     <footer class="footer">
       <div class="container">
         <div class="columns">
-          <div class="column">
-            <div class="content">
-              <p><strong>Nesselwang Competition</strong> wird organisiert von Stefan Matheis, dem Veranstalter von <a
-                  href="https://www.schachmatt-ulm.de">Schachmatt Ulm</a> & Initiator des Schanzenlauf
-                Oberstdorf. </p>
-            </div>
-          </div>
+
           <div class="column">
             <div class="columns">
               <div class="column is-4"><img src="/images/stefan.jpg" alt="Bild Stefan Matheis"></div>
@@ -71,11 +64,45 @@
               </div>
             </div>
           </div>
+          <div class="column competitions">
+            <div class="columns">
+              <div class="column">
+                <img src="/images/competition-nesselwang.svg" alt="Logo Competition Nesselwang">
+                <p class="has-text-centered">
+                  <span>Nesselwang</span>
+                  <span>Competition</span>
+                  <span class="has-text-grey-light">(Organisator)</span>
+                </p>
+              </div>
+              <div class="column">
+                <a href="https://www.schachmatt-ulm.de">
+                <img src="/images/schachmatt-ulm.svg" alt="Logo Schachmatt Ulm">
+                <p class="has-text-centered">
+                  <span>Schachmatt</span>
+                  <span>Ulm</span>
+                  <span class="has-text-grey-light">(Organisator)</span>
+                </p>
+                </a>
+              </div>
+              <div class="column">
+                <img src="/images/schanzenlauf-oberstdorf.svg" alt="Logo Schanzenlauf Oberstdorf">
+                <p class="has-text-centered">
+                  <span>Schanzenlauf</span>
+                  <span>Oberstdorf</span>
+                  <span class="has-text-grey-light">(Initiator)</span>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
 
-
-
   </div>
 </template>
+
+<style scoped>
+.competitions span {
+  display: block;
+}
+</style>
