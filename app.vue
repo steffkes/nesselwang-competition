@@ -1,3 +1,34 @@
+<script setup>
+const { event, formattedDate } = await useEvent();
+
+useSeoMeta({
+  ogTitle: event.name,
+  ogDescription: event.description + " @ " + formattedDate,
+});
+
+useHead({
+  titleTemplate: (pageTitle) => [pageTitle, event.name].filter(Boolean).join(" | "),
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  charset: "utf-8",
+  meta: [
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "apple-mobile-web-app-title", content: event.name },
+  ],
+  script: [
+    {
+      src: "https://plausible.io/js/script.js",
+      "data-domain": "nesselwang-competition.vercel.app",
+      defer: true,
+    },
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(event)
+    }
+  ],
+});
+</script>
+
 <template>
   <div>
     <div class="container">
