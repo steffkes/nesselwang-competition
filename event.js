@@ -24,6 +24,11 @@ export const event = {
         addressRegion: "BY",
         addressCountry: "DE",
       },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: "47.6182629",
+        longitude: "10.4969224"
+      },
     },
     image: ["https://nesselwang-competition.vercel.app/og.jpg"],
   };
