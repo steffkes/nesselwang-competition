@@ -98,6 +98,33 @@ useHead({
         </div>
         -->
 
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Steigung bis zu</p>
+              <p class="title">30%</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Distanz</p>
+              <p class="title">3'700m</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Höhenunterschied</p>
+              <p class="title">530m</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Zieleinlauf auf</p>
+              <p class="title">1'500m</p>
+            </div>
+          </div>
+        </nav>
+
         <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%">
           <iframe allow="fullscreen;autoplay" allowfullscreen height="100%"
             src="https://streamable.com/e/sksaz8?autoplay=1&loop=0" width="100%"
