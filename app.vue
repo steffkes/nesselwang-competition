@@ -58,37 +58,23 @@ useHead({
 
 <template>
   <div>
+      <section
+      class="section"
+      style="
+        min-height: 50vh;
+        background-image: url(/images/hero.jpg);
+        background-size: cover;
+        background-position: 50% 65%;
+      "
+    >
     <div class="container">
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/">
-            <strong>Nesselwang Competition</strong>
-          </a>
-
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-            data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-
-        <div id="navbarBasicExample" class="navbar-menu">
-          <!--
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Sag mir auf jeden Fall Bescheid!</strong>
-                </a>
-              </div>
-            </div>
+        <div class="columns">
+          <div class="column is-two-fifths">
+            <a href="/">Nesselwang Competition</a>
           </div>
-          -->
         </div>
-      </nav>
     </div>
+    </section>
 
     <section class="section">
       <div class="container">
