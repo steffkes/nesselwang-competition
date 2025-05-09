@@ -87,7 +87,7 @@ useHead({
     <div class="container">
         <div class="columns">
           <div class="column is-two-fifths">
-            <a href="/">Nesselwang Competition</a>
+            <a href="/"><img src="/nesselwang-competition.svg" alt="Logo Nesselwang Competition"></a>
           </div>
         </div>
     </div>
