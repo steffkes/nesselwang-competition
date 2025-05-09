@@ -1,6 +1,8 @@
 <script setup>
 const { event, formattedDate } = await useEvent();
 
+const activeModal = ref(false);
+
 useSeoMeta({
   ogImage: "/og.jpg",
   ogTitle: event.name,
@@ -58,6 +60,21 @@ useHead({
 
 <template>
   <div>
+    <div class="modal" :class="{ 'is-active': activeModal }" @click="activeModal = false">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image">
+          <img src="/qr-code.svg" />
+        </p>
+      </div>
+    </div>
+    <a
+      class="is-hidden-desktop"
+      @click="activeModal = true"
+      style="position: fixed; right: 0px; bottom: 0px"
+      ><img src="/qr-code.svg" style="opacity: 0.1; height: 20px; margin: 10px"
+    /></a>
+
       <section
       class="section"
       style="
