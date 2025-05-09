@@ -167,4 +167,7 @@ useHead({
 .competitions span {
   display: block;
 }
+.competitions img {
+  filter: grayscale(1);
+}
 </style>
