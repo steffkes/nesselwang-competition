@@ -143,7 +143,7 @@ useHead({
         <div class="columns">
 
           <div class="column">
-            <div class="columns">
+            <div class="columns is-mobile">
               <div class="column is-4"><img src="/images/stefan.jpg" alt="Bild Stefan Matheis"></div>
               <div class="column">
                 <p>Fragen? Anregungen? Presse. Sponsoring.</p>
@@ -153,7 +153,7 @@ useHead({
             </div>
           </div>
           <div class="column competitions">
-            <div class="columns">
+            <div class="columns is-mobile">
               <div class="column">
                 <img src="/images/competition-nesselwang.svg" alt="Logo Competition Nesselwang">
                 <p class="has-text-centered">
