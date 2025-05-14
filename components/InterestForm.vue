@@ -87,13 +87,11 @@ async function contactForm() {
                     </div>
                 </div>
 
-                <div class="field is-grouped mt-6">
-                    <div class="control">
-                        <button type="submit" class="button is-primary"
-                        :class="{
-                            'is-loading': isLoading
-                        }">Submit</button>
-                    </div>
+                <div class="field mt-6">
+                    <button type="submit" class="button is-primary"
+                    :class="{
+                        'is-loading': isLoading
+                    }">Sagt mir Bescheid wenn's los geht!</button>
                 </div>
 
             </div>
