@@ -33,60 +33,69 @@ async function contactForm() {
     </div>
 
     <form v-else @submit.prevent="contactForm">
-        <div class="field">
-            <label class="label">Name *</label>
-            <div class="control">
-                <input v-model="name" type="text" class="input" placeholder="Dein Name"
-                required :disabled="isLoading">
-            </div>
-        </div>
+        <div class="columns">
+            <div class="column">
 
-        <div class="field">
-            <label class="label">eMail *</label>
-            <div class="control">
-                <input v-model="email" type="email" class="input" placeholder="Deine eMail-Adresse"
-                required :disabled="isLoading">
-            </div>
-        </div>
+                <div class="field">
+                    <label class="label">Name *</label>
+                    <div class="control">
+                        <input v-model="name" type="text" class="input" placeholder="Dein Name"
+                        required :disabled="isLoading">
+                    </div>
+                </div>
 
-        <div class="field">
-            <label class="label">Handy-Nummer *</label>
-            <div class="control">
-                <input v-model="phone" type="tel" class="input" placeholder="Deine Handy-Nummer"
-                required :disabled="isLoading">
-            </div>
-        </div>
+                <div class="field">
+                    <label class="label">eMail *</label>
+                    <div class="control">
+                        <input v-model="email" type="email" class="input" placeholder="Deine eMail-Adresse"
+                        required :disabled="isLoading">
+                    </div>
+                </div>
 
-        <div class="field">
-            <label class="label">Herkunft *</label>
-            <div class="control">
-                <input v-model="origin" type="text" class="input" placeholder="Woher kommst du / bei welcher Organisation?"
-                required :disabled="isLoading">
-            </div>
-        </div>
+                <div class="field">
+                    <label class="label">Handy-Nummer *</label>
+                    <div class="control">
+                        <input v-model="phone" type="tel" class="input" placeholder="Deine Handy-Nummer"
+                        required :disabled="isLoading">
+                    </div>
+                </div>
 
-        <div class="field">
-            <label class="label">Interesse</label>
-            <div class="control">
-                <label class="checkbox mr-2">
-                    <input v-model="interests" type="checkbox" value="Einzel"
-                    :disabled="isLoading">
-                    Einzel
-                </label>
-                <label class="checkbox">
-                    <input v-model="interests" type="checkbox" value="Staffel"
-                    :disabled="isLoading">
-                    Staffel
-                </label>
             </div>
-        </div>
+            <div class="column">
 
-        <div class="field is-grouped">
-            <div class="control">
-                <button type="submit" class="button is-primary"
-                :class="{
-                    'is-loading': isLoading
-                }">Submit</button>
+                <div class="field">
+                    <label class="label">Herkunft *</label>
+                    <div class="control">
+                        <input v-model="origin" type="text" class="input" placeholder="Woher kommst du / bei welcher Organisation?"
+                        required :disabled="isLoading">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Interesse</label>
+                    <div class="control">
+                        <label class="checkbox mr-2">
+                            <input v-model="interests" type="checkbox" value="Einzel"
+                            :disabled="isLoading">
+                            Einzel
+                        </label>
+                        <label class="checkbox">
+                            <input v-model="interests" type="checkbox" value="Staffel"
+                            :disabled="isLoading">
+                            Staffel
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field is-grouped mt-6">
+                    <div class="control">
+                        <button type="submit" class="button is-primary"
+                        :class="{
+                            'is-loading': isLoading
+                        }">Submit</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </form>
