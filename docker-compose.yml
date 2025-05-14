@@ -7,3 +7,5 @@ services:
       - ./:/app
     ports:
       - 127.0.0.1:5900:3000
+    environment:
+      - AIRTABLE_API_KEY

@@ -1,4 +1,6 @@
 <script setup>
+import InterestForm from './components/InterestForm.vue';
+
 const { event, formattedDate } = await useEvent();
 
 const activeModal = ref(false);
@@ -175,7 +177,7 @@ useHead({
     <section class="section" id="da-simmer-dabei">
       <div class="container">
 
-        <p>Here goes the FORM</p>
+        <InterestForm />
 
       </div>
     </section>
