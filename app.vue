@@ -150,7 +150,7 @@ useHead({
         <div class="content">
           <p>Los geht's am Explorer Hotel Nesselwang, den Wasserfallweg entlang ein paar Treppen hinaus - bis man an der Mittelstation der Alpspitzbahn aus dem Wald bricht.
           Dann geht's weiter auf der Teerstraße, durch die bekannte Bayernkurve und einen letzten Anstieg hinauf zur Bergstation.
-          Von dort aus ist es nur nur ein Katzensprung ans Sportheim Böck - das Ziel der Nesselwang Competition.</p>
+          Von dort aus ist es nur nur ein Katzensprung ans Sportheim Böck - das Ziel des Fire Trail Nesselwang.</p>
 
           <p>Schau's dir im Flyover an:</p>
         </div>
