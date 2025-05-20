@@ -1,7 +1,7 @@
 export const event = {
     "@context": "https://schema.org",
     "@type": "SportsEvent",
-    name: "Nesselwang Competition",
+    name: "Fire Trail Nesselwang",
     description: "Feuerwehr-Treppen- & Berglauf auf die Alpspitz Nesselwang",
     startDate: "2025-10-18",
     endDate: "2025-10-18",

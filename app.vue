@@ -89,7 +89,7 @@ useHead({
       <div class="container">
         <div class="columns">
           <div class="column is-two-fifths">
-            <a href="/"><img src="/nesselwang-competition.svg" alt="Logo Nesselwang Competition"></a>
+            <a href="/"><img src="/fire-trail-nesselwang.svg" alt="Logo Fire Trail Nesselwang"></a>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ useHead({
       <div class="container">
 
         <div class="content">
-          <p class="has-text-centered">Save the date! Die <strong>Nesselwang Competition</strong> findet statt am <strong>Samstag, 18.10.25</strong> an der <strong>Alpspitzbahn Nesselwang</strong>.</p>
+          <p class="has-text-centered">Save the date! Der <strong>Fire Trail Nesselwang</strong> findet statt am <strong>Samstag, 18.10.25</strong> an der <strong>Alpspitzbahn Nesselwang</strong>.</p>
           <p class="has-text-centered"><a href="#da-simmer-dabei" class="button is-primary">Da will ich dabei sein!</a></p>
         </div>
       
@@ -199,10 +199,10 @@ useHead({
           <div class="column competitions">
             <div class="columns is-mobile">
               <div class="column">
-                <img src="/images/competition-nesselwang.svg" alt="Logo Competition Nesselwang">
+                <img src="/images/fire-trail-nesselwang.svg" alt="Logo Fire Trail Nesselwang">
                 <p class="has-text-centered">
+                  <span>Fire Trail</span>
                   <span>Nesselwang</span>
-                  <span>Competition</span>
                   <span class="has-text-grey-light">(Organisator)</span>
                 </p>
               </div>
