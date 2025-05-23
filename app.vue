@@ -235,6 +235,8 @@ useHead({
       </div>
     </section>
 
+    <PartnerGrid />
+
     <footer class="footer">
       <div class="container">
         <div class="columns">
