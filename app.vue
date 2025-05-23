@@ -246,8 +246,10 @@ useHead({
               <div class="column is-4"><img src="/images/stefan.jpg" alt="Bild Stefan Matheis"></div>
               <div class="column">
                 <p>Fragen? Anregungen? Presse. Sponsoring.</p>
-                <p class="mt-4"><strong>Stefan Matheis</strong><br><a href="mailto:stefan@mathe.is">✉️
-                    stefan@mathe.is</a><br><a href="tel:004916097048114">📞 +49 160 970 48 114</a></p>
+                <p class="mt-4">
+                  <strong>Stefan Matheis</strong><br>
+                  <a href="mailto:stefan.matheis@fire-trail-nesselwang.de">✉️ stefan.matheis@fire-trail-nesselwang.de</a><br>
+                  <a href="tel:004916097048114">📞 +49 160 970 48 114</a></p>
               </div>
             </div>
           </div>
