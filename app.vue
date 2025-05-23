@@ -214,7 +214,17 @@ useHead({
                    <img src="/images/bild-03.jpg" />
                 </figure>
                 </div>
-                <div class="cell is-col-span-2">
+                <div class="cell is-row-span-2">
+                <figure class="image is-3by4">
+                    <img src="/images/bild-07.jpg" />
+                </figure>
+                </div>
+                <div class="cell">
+                <figure class="image is-4by3">
+                   <img src="/images/bild-06.jpg" />
+                </figure>
+                </div>
+                <div class="cell">
                 <figure class="image">
                     <img src="/images/bild-05.jpg" />
                 </figure>
