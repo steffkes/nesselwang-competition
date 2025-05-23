@@ -192,6 +192,8 @@ useHead({
      <section class="section">
        <div class="container">
  
+        <div class="columns is-2">
+          <div class="column">
         <div class="fixed-grid has-2-cols">
             <div class="grid">
                 <div class="cell is-row-span-2">
@@ -214,6 +216,12 @@ useHead({
                    <img src="/images/bild-03.jpg" />
                 </figure>
                 </div>
+              </div>
+            </div>
+          </div>
+                      <div class="column">
+        <div class="fixed-grid has-2-cols">
+            <div class="grid">
                 <div class="cell is-row-span-2">
                 <figure class="image is-3by4">
                     <img src="/images/bild-07.jpg" />
@@ -231,6 +239,8 @@ useHead({
                 </div>
             </div>
           </div>
+        </div>
+      </div>
  
       </div>
     </section>
