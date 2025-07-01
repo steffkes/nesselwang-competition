@@ -284,12 +284,14 @@ useHead({
                 </a>
               </div>
               <div class="column">
+                <a href="https://www.schanzenlauf-oberstdorf.de">
                 <img src="/images/schanzenlauf-oberstdorf.svg" alt="Logo Schanzenlauf Oberstdorf">
                 <p class="has-text-centered">
                   <span>Schanzenlauf</span>
                   <span>Oberstdorf</span>
                   <span class="has-text-grey-light">(Initiator)</span>
                 </p>
+                </a>
               </div>
             </div>
           </div>
