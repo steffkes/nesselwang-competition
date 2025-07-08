@@ -23,7 +23,7 @@ useHead({
   script: [
     {
       src: "https://plausible.io/js/script.js",
-      "data-domain": "nesselwang-competition.vercel.app",
+      "data-domain": "fire-trail-nesselwang.de",
       defer: true,
     },
     {
