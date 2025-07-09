@@ -1,5 +1,6 @@
 import { event, formattedDate } from "../event";
 
 export const useEvent = async () => {
-  return { event, formattedDate };
+  const { data: registration } = await useFetch("/api/event/registration");
+  return { event, formattedDate, registration };
 };

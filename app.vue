@@ -1,7 +1,7 @@
 <script setup>
 import InterestForm from './components/InterestForm.vue';
 
-const { event, formattedDate } = await useEvent();
+const { event, formattedDate, registration } = await useEvent();
 
 const activeModal = ref(false);
 
@@ -99,8 +99,8 @@ useHead({
       <div class="container">
 
         <div class="content">
-          <p class="has-text-centered">Save the date! Der <strong>Fire Trail Nesselwang</strong> findet statt am <strong>Samstag, 18.10.25</strong> an der <strong>Alpspitzbahn Nesselwang</strong>.</p>
-          <p class="has-text-centered"><a href="#da-simmer-dabei" class="button is-primary">Da will ich dabei sein!</a></p>
+          <p class="has-text-centered">Der <strong>Fire Trail Nesselwang</strong> findet statt am <strong>Samstag, 18.10.25</strong> an der <strong>Alpspitzbahn Nesselwang</strong>.</p>
+          <p class="has-text-centered"><a href="//go.fire-trail-nesselwang.de/anmeldung" class="button is-success is-medium">Ich will einen der <span class="tag is-white mx-1">{{ registration.slots }}</span> Startplätze!</a></p>
         </div>
       
       </div>
@@ -170,14 +170,6 @@ useHead({
           Die zweite Person übernimmt dort und läuft den Rest der Strecke bis zum Sportheim Böck - dort befindet sich das Ziel.</p>
 
         </div>
-
-      </div>
-    </section>
-
-    <section class="section" id="da-simmer-dabei">
-      <div class="container">
-
-        <InterestForm />
 
       </div>
     </section>
