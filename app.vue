@@ -88,7 +88,7 @@ useHead({
     >
       <div class="container">
         <div class="columns">
-          <div class="column is-two-fifths">
+          <div class="column is-3 is-half-mobile">
             <a href="/"><img src="/fire-trail-nesselwang.svg" alt="Logo Fire Trail Nesselwang"></a>
           </div>
         </div>
