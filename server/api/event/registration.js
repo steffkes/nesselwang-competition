@@ -2,7 +2,9 @@ import { defineEventHandler } from "h3"; // needed for test
 import { ofetch } from "ofetch";
 
 export const extract = (content) => {
-  return { slots: content["RegistrationConfig"]["Registrations"][0]["SlotsLeft"] };
+  return {
+    slots: content["RegistrationConfig"]["Registrations"][0]["SlotsLeft"],
+  };
 };
 
 export default defineEventHandler(async (event) => {

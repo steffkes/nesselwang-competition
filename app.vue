@@ -1,6 +1,4 @@
 <script setup>
-import InterestForm from './components/InterestForm.vue';
-
 const { event, formattedDate, registration } = await useEvent();
 
 const activeModal = ref(false);
@@ -12,7 +10,8 @@ useSeoMeta({
 });
 
 useHead({
-  titleTemplate: (pageTitle) => [pageTitle, event.name].filter(Boolean).join(" | "),
+  titleTemplate: (pageTitle) =>
+    [pageTitle, event.name].filter(Boolean).join(" | "),
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
   meta: [
@@ -28,8 +27,8 @@ useHead({
     },
     {
       type: "application/ld+json",
-      children: JSON.stringify(event)
-    }
+      children: JSON.stringify(event),
+    },
   ],
   link: [
     {
@@ -62,7 +61,11 @@ useHead({
 
 <template>
   <div>
-    <div class="modal" :class="{ 'is-active': activeModal }" @click="activeModal = false">
+    <div
+      class="modal"
+      :class="{ 'is-active': activeModal }"
+      @click="activeModal = false"
+    >
       <div class="modal-background"></div>
       <div class="modal-content">
         <p class="image">
@@ -89,7 +92,11 @@ useHead({
       <div class="container is-max-desktop">
         <div class="columns">
           <div class="column is-3 is-half-mobile">
-            <a href="/"><img src="/fire-trail-nesselwang.svg" alt="Logo Fire Trail Nesselwang"></a>
+            <a href="/"
+              ><img
+                src="/fire-trail-nesselwang.svg"
+                alt="Logo Fire Trail Nesselwang"
+            /></a>
           </div>
         </div>
       </div>
@@ -102,23 +109,30 @@ useHead({
     <footer class="footer">
       <div class="container is-max-desktop">
         <div class="columns">
-
           <div class="column">
             <div class="columns is-mobile">
-              <div class="column is-4"><img src="/images/stefan.jpg" alt="Bild Stefan Matheis"></div>
+              <div class="column is-4">
+                <img src="/images/stefan.jpg" alt="Bild Stefan Matheis" />
+              </div>
               <div class="column">
                 <p>Fragen? Anregungen? Presse. Sponsoring.</p>
                 <p class="mt-4">
-                  <strong>Stefan Matheis</strong><br>
-                  <a href="mailto:stefan.matheis@fire-trail-nesselwang.de">✉️ stefan.matheis@fire-trail-nesselwang.de</a><br>
-                  <a href="tel:004916097048114">📞 +49 160 970 48 114</a></p>
+                  <strong>Stefan Matheis</strong><br />
+                  <a href="mailto:stefan.matheis@fire-trail-nesselwang.de"
+                    >✉️ stefan.matheis@fire-trail-nesselwang.de</a
+                  ><br />
+                  <a href="tel:004916097048114">📞 +49 160 970 48 114</a>
+                </p>
               </div>
             </div>
           </div>
           <div class="column competitions">
             <div class="columns is-mobile">
               <div class="column">
-                <img src="/images/fire-trail-nesselwang.svg" alt="Logo Fire Trail Nesselwang">
+                <img
+                  src="/images/fire-trail-nesselwang.svg"
+                  alt="Logo Fire Trail Nesselwang"
+                />
                 <p class="has-text-centered">
                   <span>Fire Trail</span>
                   <span>Nesselwang</span>
@@ -127,22 +141,28 @@ useHead({
               </div>
               <div class="column">
                 <a href="https://www.schachmatt-ulm.de">
-                <img src="/images/schachmatt-ulm.svg" alt="Logo Schachmatt Ulm">
-                <p class="has-text-centered">
-                  <span>Schachmatt</span>
-                  <span>Ulm</span>
-                  <span class="has-text-grey-light">(Organisator)</span>
-                </p>
+                  <img
+                    src="/images/schachmatt-ulm.svg"
+                    alt="Logo Schachmatt Ulm"
+                  />
+                  <p class="has-text-centered">
+                    <span>Schachmatt</span>
+                    <span>Ulm</span>
+                    <span class="has-text-grey-light">(Organisator)</span>
+                  </p>
                 </a>
               </div>
               <div class="column">
                 <a href="https://www.schanzenlauf-oberstdorf.de">
-                <img src="/images/schanzenlauf-oberstdorf.svg" alt="Logo Schanzenlauf Oberstdorf">
-                <p class="has-text-centered">
-                  <span>Schanzenlauf</span>
-                  <span>Oberstdorf</span>
-                  <span class="has-text-grey-light">(Initiator)</span>
-                </p>
+                  <img
+                    src="/images/schanzenlauf-oberstdorf.svg"
+                    alt="Logo Schanzenlauf Oberstdorf"
+                  />
+                  <p class="has-text-centered">
+                    <span>Schanzenlauf</span>
+                    <span>Oberstdorf</span>
+                    <span class="has-text-grey-light">(Initiator)</span>
+                  </p>
                 </a>
               </div>
             </div>
@@ -150,7 +170,6 @@ useHead({
         </div>
       </div>
     </footer>
-
   </div>
 </template>
 
