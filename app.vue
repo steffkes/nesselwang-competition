@@ -156,16 +156,6 @@ useHead({
 
 <style>
 @import url("bulma");
-
-:root {
-  --bulma-success-h: 119;
-  --bulma-success-s: 52%;
-  --bulma-success-l: 44%;
-
-  --bulma-info-h: 203;
-  --bulma-info-s: 65%;
-  --bulma-info-l: 53%;
-}
 </style>
 
 <style scoped>
