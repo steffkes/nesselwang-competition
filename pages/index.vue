@@ -5,7 +5,7 @@ const { registration } = await useEvent();
 <template>
   <div>
     <section class="section">
-      <div class="container">
+      <div class="container is-max-desktop">
 
         <div class="content">
           <p class="has-text-centered">Der <strong>Fire Trail Nesselwang</strong> findet statt am <strong>Samstag, 18.10.25</strong> an der <strong>Alpspitzbahn Nesselwang</strong>.</p>
@@ -16,7 +16,7 @@ const { registration } = await useEvent();
     </section>
 
     <section class="section has-background-info">
-      <div class="container">
+      <div class="container is-max-desktop">
         <!--
         <div class="notification is-primary">
           This container is <strong>centered</strong> on desktop and larger viewports.
@@ -54,7 +54,7 @@ const { registration } = await useEvent();
     </section>
 
     <section class="section">
-      <div class="container">
+      <div class="container is-max-desktop">
 
         <div class="content">
           <p>Los geht's am Explorer Hotel Nesselwang, den Wasserfallweg entlang ein paar Treppen hinaus - bis man an der Mittelstation der Alpspitzbahn aus dem Wald bricht.
@@ -84,8 +84,8 @@ const { registration } = await useEvent();
     </section>
 
     <section class="hero is-info">
-      <div class="container">
-        <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="hero-body px-0">
           <p class="title">Für den ersten Eindruck</p>
           <p class="subtitle">Impressionen vom Wasserfallweg, der Bayernkurve & vom Ziel</p>
         </div>
@@ -93,7 +93,7 @@ const { registration } = await useEvent();
     </section>
 
      <section class="section">
-       <div class="container">
+       <div class="container is-max-desktop">
  
         <div class="columns is-2">
           <div class="column">

@@ -86,7 +86,7 @@ useHead({
         background-position: 40% 60%;
       "
     >
-      <div class="container">
+      <div class="container is-max-desktop">
         <div class="columns">
           <div class="column is-3 is-half-mobile">
             <a href="/"><img src="/fire-trail-nesselwang.svg" alt="Logo Fire Trail Nesselwang"></a>
@@ -100,7 +100,7 @@ useHead({
     <PartnerGrid />
 
     <footer class="footer">
-      <div class="container">
+      <div class="container is-max-desktop">
         <div class="columns">
 
           <div class="column">

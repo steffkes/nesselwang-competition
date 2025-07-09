@@ -1,13 +1,15 @@
 <template>
     <section class="hero has-background-light">
-      <div class="hero-body">
-        <p class="title">Wir sagen Danke!</p>
-        <p class="subtitle">Für die Unterstützung durch unsere Partner & Sponsoren</p>
+      <div class="container is-max-desktop">
+        <div class="hero-body px-0">
+          <p class="title">Wir sagen Danke!</p>
+          <p class="subtitle">Für die Unterstützung durch unsere Partner & Sponsoren</p>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
+   <section class="section">
+      <div class="container is-max-desktop">
 
         <div class="fixed-grid has-3-cols">
             <div class="grid">
