@@ -83,7 +83,7 @@ useHead({
         min-height: 50vh;
         background-image: url(/images/hero.jpg);
         background-size: cover;
-        background-position: 50% 65%;
+        background-position: 40% 60%;
       "
     >
       <div class="container">
