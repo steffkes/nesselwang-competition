@@ -22,7 +22,8 @@ useHead({
   ],
   script: [
     {
-      src: "https://plausible.io/js/script.js",
+      src: "/pl/script.js",
+      "data-api": "/pl/event",
       "data-domain": "fire-trail-nesselwang.de",
       defer: true,
     },
