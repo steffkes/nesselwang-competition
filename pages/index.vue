@@ -14,7 +14,7 @@ const { registration } = await useEvent();
           </p>
           <p class="has-text-centered">
             <a
-              href="//go.fire-trail-nesselwang.de/anmeldung"
+              href="/anmeldung"
               class="button is-success is-medium"
               >Ich will einen der
               <span class="tag is-white mx-1">{{ registration.slots }}</span>
