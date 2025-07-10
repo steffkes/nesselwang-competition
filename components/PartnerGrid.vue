@@ -1,12 +1,10 @@
 <template>
-  <section class="hero has-background-light">
+  <section class="section has-background-light">
     <div class="container is-max-desktop">
-      <div class="hero-body px-0">
-        <p class="title">Wir sagen Danke!</p>
-        <p class="subtitle">
-          Für die Unterstützung durch unsere Partner & Sponsoren
-        </p>
-      </div>
+      <p class="title">Wir sagen Danke!</p>
+      <p class="subtitle">
+        Für die Unterstützung durch unsere Partner & Sponsoren
+      </p>
     </div>
   </section>
 
