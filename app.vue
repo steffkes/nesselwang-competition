@@ -125,7 +125,10 @@ useHead({
             </a>
           </div>
 
-          <div class="navbar-menu" :class="{ 'is-active': showNavigation }">
+          <div
+            class="navbar-menu"
+            :class="{ 'is-active': showNavigation, 'mb-6': showNavigation }"
+          >
             <div class="navbar-start">
               <a href="/" class="navbar-item"> Startseite </a>
 
@@ -145,7 +148,7 @@ useHead({
               </div>
             </div>
 
-            <div class="navbar-end">
+            <div class="navbar-end is-hidden-mobile">
               <div class="navbar-item">
                 <div class="buttons">
                   <a href="/anmeldung" class="button is-success"
@@ -156,6 +159,12 @@ useHead({
             </div>
           </div>
         </nav>
+
+        <p class="has-text-centered is-hidden-tablet">
+          <a href="/anmeldung" class="button is-success"
+            >Anmelden ({{ registration.slots }} frei)</a
+          >
+        </p>
       </div>
     </section>
 
