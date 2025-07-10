@@ -2,6 +2,7 @@
 const { event, formattedDate, registration } = await useEvent();
 
 const activeModal = ref(false);
+const showNavigation = ref(false);
 
 useSeoMeta({
   ogImage: "/og.jpg",
@@ -99,6 +100,61 @@ useHead({
             /></a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container is-max-desktop">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a
+              @click="showNavigation = !showNavigation"
+              class="navbar-burger"
+              :class="{
+                'is-active': showNavigation,
+              }"
+              role="button"
+              aria-label="menu"
+              aria-expanded="false"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div class="navbar-menu" :class="{ 'is-active': showNavigation }">
+            <div class="navbar-start">
+              <a href="/" class="navbar-item"> Startseite </a>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link"> Wettkampf </a>
+
+                <div class="navbar-dropdown">
+                  <a href="/wettkampf/regeln" class="navbar-item"> Regeln </a>
+                  <a href="/wettkampf/strecke" class="navbar-item"> Strecke </a>
+                  <a href="/wettkampf/zeitplan" class="navbar-item">
+                    Zeitplan
+                  </a>
+                  <a href="/wettkampf/impressionen" class="navbar-item">
+                    Impressionen
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a href="/anmeldung" class="button is-success"
+                    >Anmelden ({{ registration.slots }} frei)</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </section>
 
