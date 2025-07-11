@@ -8,6 +8,31 @@
         Wird in die kommenden Tage noch ausgearbeitet .. schaut einfach nochmal
         rein. Wer bereits angemeldet ist, wird automatisch benachrichtigt.
       </p>
+
+      <div class="notification">
+        <p>Vorläufiger Zeitplan</p>
+      </div>
+
+      <div class="content">
+
+        <p>Freitag</p>
+
+        <ul>
+          <li>Ausgabe der Startunterlagen</li>
+          <li>Pasta-Party @ Feuerwehr Nesselwang</li>
+        </ul>
+
+        <p>Samstag</p>
+
+        <ul>
+          <li>Ausgabe der Startunterlagen</li>
+          <li>Startschuss für den ersten Läufer</li>
+          <li>Ende der Veranstaltung</li>
+          <li>Siegerehrung</li>
+          <li>Grill-Abend @ Feuerwehr Nesselwang</li>
+        </ul>
+
+      </div>
     </div>
   </section>
 </template>
