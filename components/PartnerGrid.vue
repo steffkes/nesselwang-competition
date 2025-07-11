@@ -24,6 +24,9 @@
           <div class="cell">
             <img src="/images/partner/bergwacht-nesselwang.png" />
           </div>
+          <div class="cell">
+            <img src="/images/partner/feuerwehr-nesselwang.png" />
+          </div>
         </div>
       </div>
     </div>
