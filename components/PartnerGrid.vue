@@ -21,6 +21,9 @@
           <div class="cell">
             <img src="/images/partner/sportheim-boeck.png" />
           </div>
+          <div class="cell">
+            <img src="/images/partner/bergwacht-nesselwang.png" />
+          </div>
         </div>
       </div>
     </div>
