@@ -1,7 +1,9 @@
+const eventName = "Fire Trail Nesselwang";
+
 export const event = {
   "@context": "https://schema.org",
   "@type": "SportsEvent",
-  name: "Fire Trail Nesselwang",
+  name: eventName,
   description: "Feuerwehr-Treppen- & Berglauf auf die Alpspitz Nesselwang",
   startDate: "2025-10-18",
   endDate: "2025-10-18",
@@ -34,6 +36,24 @@ export const event = {
     "https://nesselwang-competition.vercel.app/images/1x1.jpg",
     "https://nesselwang-competition.vercel.app/images/4x3.jpg",
     "https://nesselwang-competition.vercel.app/images/16x9.jpg",
+  ],
+  offers: [
+    {
+      "@type": "Offer",
+      name: eventName + ": Einzel (1 Person)",
+      price: 40.0,
+      priceCurrency: "EUR",
+      availability: "https://schema.org/InStock",
+      url: "http://www.fire-trail-nesselwang.de/anmeldung",
+    },
+    {
+      "@type": "Offer",
+      name: eventName + ": 2er-Staffel (2 Personen)",
+      price: 90.0,
+      priceCurrency: "EUR",
+      availability: "https://schema.org/InStock",
+      url: "http://www.fire-trail-nesselwang.de/anmeldung",
+    },
   ],
 };
 export const formattedDate = new Date(event.startDate).toLocaleDateString(
