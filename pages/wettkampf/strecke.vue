@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Wettkampf-Strecke",
+  description: "Damit auch alle das Ziel finden"
+});
+</script>
 
 <template>
   <section class="section">

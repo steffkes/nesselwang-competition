@@ -6,8 +6,7 @@ const showNavigation = ref(false);
 
 useSeoMeta({
   ogImage: "/og.jpg",
-  ogTitle: event.name,
-  ogDescription: event.description + " @ " + formattedDate,
+  description: event.description + " @ " + formattedDate,
 });
 
 useHead({

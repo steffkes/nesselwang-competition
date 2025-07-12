@@ -1,4 +1,9 @@
 <script setup>
+useSeoMeta({
+  title: "Wettkampf-Impressionen",
+  description: "Vom Wasserfallweg, der Bayernkurve & vom Ziel"
+});
+
 const imageToShow = ref(false);
 const showThisImage = (event) =>
   (imageToShow.value = event.target.src.replace(/-small/, "-large"));

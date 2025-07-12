@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Wettkampf-Regeln",
+  description: "Alles was ihr wissen müsst"
+});
+</script>
 
 <template>
   <section class="section">

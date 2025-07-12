@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Wettkampf-Zeitplan",
+  description: "Was, wann & wo stattfindet"
+});
+</script>
 
 <template>
   <section class="section">
@@ -14,7 +19,6 @@
       </div>
 
       <div class="content">
-
         <p>Freitag</p>
 
         <ul>
@@ -31,7 +35,6 @@
           <li>Siegerehrung</li>
           <li>Grill-Abend @ Feuerwehr Nesselwang</li>
         </ul>
-
       </div>
     </div>
   </section>
