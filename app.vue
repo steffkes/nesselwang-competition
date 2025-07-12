@@ -152,7 +152,7 @@ useHead({
               <div class="navbar-item">
                 <div class="buttons">
                   <a href="/anmeldung" class="button is-success"
-                    >Anmelden ({{ registration.slots }} frei)</a
+                    >Anmelden (noch {{ registration.slots }} frei)</a
                   >
                 </div>
               </div>
@@ -162,7 +162,7 @@ useHead({
 
         <p class="has-text-centered is-hidden-tablet">
           <a href="/anmeldung" class="button is-success"
-            >Anmelden ({{ registration.slots }} frei)</a
+            >Anmelden (noch {{ registration.slots }} frei)</a
           >
         </p>
       </div>
