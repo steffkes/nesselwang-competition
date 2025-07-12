@@ -12,7 +12,7 @@ export const event = {
   organizer: {
     "@type": "Person",
     name: "Stefan Matheis",
-    email: "mailto:stefan@mathe.is",
+    email: "mailto:stefan.matheis@fire-trail-nesselwang.de",
     telephone: "+49 160 970 48 114",
   },
   location: {
