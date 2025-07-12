@@ -1,6 +1,7 @@
 <script setup>
 const imageToShow = ref(false);
-const showThisImage = (event) => (imageToShow.value = event.target.src);
+const showThisImage = (event) =>
+  (imageToShow.value = event.target.src.replace(/-small/, "-large"));
 </script>
 
 <template>
@@ -30,22 +31,22 @@ const showThisImage = (event) => (imageToShow.value = event.target.src);
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-01.jpg" />
+                  <img src="/images/ftn/ftn-01-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-02.jpg" />
+                  <img src="/images/ftn/ftn-02-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-03.jpg" />
+                  <img src="/images/ftn/ftn-03-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-04.jpg" />
+                  <img src="/images/ftn/ftn-04-small.jpg" />
                 </figure>
               </div>
             </div>
@@ -57,22 +58,22 @@ const showThisImage = (event) => (imageToShow.value = event.target.src);
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-06.jpg" />
+                  <img src="/images/ftn/ftn-06-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-05.jpg" />
+                  <img src="/images/ftn/ftn-05-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-07.jpg" />
+                  <img src="/images/ftn/ftn-07-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-08.jpg" />
+                  <img src="/images/ftn/ftn-08-small.jpg" />
                 </figure>
               </div>
             </div>
@@ -86,22 +87,22 @@ const showThisImage = (event) => (imageToShow.value = event.target.src);
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-09.jpg" />
+                  <img src="/images/ftn/ftn-09-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-11.jpg" />
+                  <img src="/images/ftn/ftn-11-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-12.jpg" />
+                  <img src="/images/ftn/ftn-12-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-10.jpg" />
+                  <img src="/images/ftn/ftn-10-small.jpg" />
                 </figure>
               </div>
             </div>
@@ -113,22 +114,22 @@ const showThisImage = (event) => (imageToShow.value = event.target.src);
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-13.jpg" />
+                  <img src="/images/ftn/ftn-13-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-14.jpg" />
+                  <img src="/images/ftn/ftn-14-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-15.jpg" />
+                  <img src="/images/ftn/ftn-15-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-16.jpg" />
+                  <img src="/images/ftn/ftn-16-small.jpg" />
                 </figure>
               </div>
             </div>
