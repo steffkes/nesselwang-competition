@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
   title: "Wettkampf-Regeln",
-  description: "Alles was ihr wissen müsst"
+  description: "Alles was ihr wissen müsst",
 });
 </script>
 

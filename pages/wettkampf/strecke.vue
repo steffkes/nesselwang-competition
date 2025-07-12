@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
   title: "Wettkampf-Strecke",
-  description: "Damit auch alle das Ziel finden"
+  description: "Damit auch alle das Ziel finden",
 });
 </script>
 
