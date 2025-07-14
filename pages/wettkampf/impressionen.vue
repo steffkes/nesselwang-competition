@@ -30,6 +30,13 @@ const showThisImage = (event) =>
         Impressionen vom Wasserfallweg, der Bayernkurve & vom Ziel
       </p>
 
+      <div class="content">
+        <p>
+          Eine animierte Darstellung der Strecke
+          <NuxtLink href="/wettkampf/strecke">findest du hier</NuxtLink>
+        </p>
+      </div>
+
       <div class="columns is-2">
         <div class="column">
           <div class="fixed-grid has-2-cols">
@@ -140,6 +147,13 @@ const showThisImage = (event) =>
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="content">
+        <p>
+          Eine animierte Darstellung der Strecke
+          <NuxtLink href="/wettkampf/strecke">findest du hier</NuxtLink>
+        </p>
       </div>
     </div>
   </section>
