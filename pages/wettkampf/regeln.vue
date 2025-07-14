@@ -51,17 +51,25 @@ useSeoMeta({
         <div class="notification has-background-warning-light">
           <h3>Zeitüberschreitung</h3>
 
+          <p>
+            Es besteht jeweils ein Zeitrahmen von 60 (in Worten: Sechszig)
+            Minuten je Abschnitt. Ein Abschnitt ist entweder die Teilstrecke vom
+            Start bis zur Mittelstation oder von der Mittelstation bis zum Ziel.
+            Dabei gilt folgende Anwendung:
+          </p>
+
           <ul>
             <li>
-              <MarkIt>Einzel</MarkIt> Wenn der Läufer nach mehr als 60 (in
-              Worten: Sechzig) Minuten die Mittelstation der Alpspitzbahn
-              erreicht, <a href="#disqualifikation">wird er disqualifiziert</a>.
+              <MarkIt>Einzel</MarkIt> Wenn der Läufer in einem der beiden
+              Abschnitte mehr als 60 (in Worten: Sechzig) benötigt,
+              <a href="#disqualifikation">wird er disqualifiziert</a>.
             </li>
             <li>
-              <MarkIt>2er-Staffel</MarkIt> Braucht einer der beiden Läufer für
-              seinen Abschnitt länger als 60 (in Worten: Sechszig) Minuten,
-              bekommt das Team 15 (in Worten: Fünfzehn) Minuten Zeitstrafe – und
-              zwar für jeden Abschnitt, bei dem die Zeit überschritten wurde.
+              <MarkIt>2er-Staffel</MarkIt> Benötigt ein Läufer für seinen
+              Abschnitt länger als 60 (in Worten: Sechszig) Minuten, bekommt das
+              Team 15 (in Worten: Fünfzehn) Minuten Zeitstrafe (zusätzlich zur
+              gelaufenen Zeit) – und zwar für jeden Abschnitt, bei dem die Zeit
+              überschritten wurde.
             </li>
           </ul>
         </div>
@@ -111,8 +119,8 @@ useSeoMeta({
         <ul>
           <li>
             <MarkIt>Einzel</MarkIt>
-            Wenn der Läufer nach mehr als 60 (in Worten: Sechzig) Minuten die
-            Mittelstation der Alpspitzbahn erreicht.
+            Wenn der Läufer in einem der beiden Abschnitte mehr als 60 (in
+            Worten: Sechzig) benötigt.
           </li>
           <li>Nichteinhaltung der Wettkampfregeln</li>
           <li>Unsportliches Verhalten</li>
