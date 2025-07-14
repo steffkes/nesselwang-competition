@@ -41,9 +41,10 @@ useSeoMeta({
         <div class="notification is-link">
           <p>
             Der Fire Trail Nesselwang wird in den Wettbewerben
-            <mark>Einzel</mark> und <mark>2er-Staffel</mark> durchgeführt. So
-            lang nicht explizit gekennzeichnet, gelten die nachfolgenden Regeln
-            für beide Wettbewerbe gleichermaßen.
+            <MarkIt>Einzel</MarkIt> und
+            <MarkIt>2er-Staffel</MarkIt> durchgeführt. So lang nicht explizit
+            gekennzeichnet, gelten die nachfolgenden Regeln für beide
+            Wettbewerbe gleichermaßen.
           </p>
         </div>
 
@@ -52,12 +53,12 @@ useSeoMeta({
 
           <ul>
             <li>
-              <mark>Einzel</mark> Wenn der Läufer nach mehr als 60 (in Worten:
-              Sechzig) Minuten die Mittelstation der Alpspitzbahn erreicht,
-              <a href="#disqualifikation">wird er disqualifiziert</a>.
+              <MarkIt>Einzel</MarkIt> Wenn der Läufer nach mehr als 60 (in
+              Worten: Sechzig) Minuten die Mittelstation der Alpspitzbahn
+              erreicht, <a href="#disqualifikation">wird er disqualifiziert</a>.
             </li>
             <li>
-              <mark>2er-Staffel</mark> Braucht einer der beiden Läufer für
+              <MarkIt>2er-Staffel</MarkIt> Braucht einer der beiden Läufer für
               seinen Abschnitt länger als 60 (in Worten: Sechszig) Minuten,
               bekommt das Team 15 (in Worten: Fünfzehn) Minuten Zeitstrafe – und
               zwar für jeden Abschnitt, bei dem die Zeit überschritten wurde.
@@ -89,8 +90,9 @@ useSeoMeta({
           <li>Feuerwehreinsatzhelm</li>
           <li>Atemschutzgerät auf dem Rücken</li>
           <li>
-            <mark style="background-color: #f0f0f0"
-              ><abbr title="Technisches Hilfswerk">THW</abbr> abweichend</mark
+            <MarkIt style="background-color: #f0f0f0"
+              ><abbr title="Technisches Hilfswerk" class="mr-1">THW</abbr>
+              abweichend</MarkIt
             >
             Es ist der vollständige Multifunktionale Einsatzschutzanzug (MEA)
             (Variante Atemschutzgeräteträger) <strong>mit</strong> Innenhose zu
@@ -108,7 +110,7 @@ useSeoMeta({
 
         <ul>
           <li>
-            <mark>Einzel</mark>
+            <MarkIt>Einzel</MarkIt>
             Wenn der Läufer nach mehr als 60 (in Worten: Sechzig) Minuten die
             Mittelstation der Alpspitzbahn erreicht.
           </li>
@@ -213,9 +215,9 @@ useSeoMeta({
 
         <ul>
           <li>
-            <mark>2er-Staffel</mark> Der zweite Läufer startet spätestens 45 (in
-            Worten: fünfundvierzig) Minuten nach dem ersten Läufer. Falls der
-            erste Läufer binnen dieser Zeit an der Mittelstation ankommt,
+            <MarkIt>2er-Staffel</MarkIt> Der zweite Läufer startet spätestens 45
+            (in Worten: fünfundvierzig) Minuten nach dem ersten Läufer. Falls
+            der erste Läufer binnen dieser Zeit an der Mittelstation ankommt,
             erfolgt eine klassische Staffelübergabe..
           </li>
         </ul>
