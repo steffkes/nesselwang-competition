@@ -153,7 +153,7 @@ useSeoMeta({
         <h3>Feuerwehrhaltegurt</h3>
 
         <ul>
-          <li>Feuerwehrhaltegurt (auch Koppel genant) ist nicht gestattet.</li>
+          <li>Feuerwehrhaltegurt (auch Koppel genannt) ist nicht gestattet.</li>
         </ul>
 
         <h3>Flammschutzhaube</h3>
