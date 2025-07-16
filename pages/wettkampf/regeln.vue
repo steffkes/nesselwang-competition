@@ -8,36 +8,9 @@ useSeoMeta({
 <template>
   <section class="section">
     <div class="container is-max-desktop">
-      <h1 class="title">Die Regeln</h1>
-
-      <p class="mb-4 has-text-grey-light">
-        Werden die kommenden Tage noch ausgearbeitet .. schaut einfach nochmal
-        rein. Wer bereits angemeldet ist, wird automatisch benachrichtigt.
-      </p>
+      <h1 id="regeln" class="title">Wettkampfregeln</h1>
 
       <div class="content">
-        <p>
-          Du kannst entweder die ganze Strecke im
-          <strong>Einzel</strong> alleine laufen, oder du entscheidest dich das
-          Ganze in der <strong>2er Staffel</strong> zusammen mit einem/einer
-          Anderen in Angriff zu nehmen - liegt ganz bei dir.
-        </p>
-
-        <p>
-          Bei der Staffel läuft die erste Person vom Start bis zur Mitte, die
-          befindet sich an der Mittelstation der Alpspitzbahn. Die zweite Person
-          übernimmt dort und läuft den Rest der Strecke bis zum Sportheim Böck -
-          dort befindet sich das Ziel.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <div class="content">
-        <h2 id="regeln" class="mb-24">Wettkampfregeln</h2>
-
         <div class="notification is-link">
           <p>
             Der Fire Trail Nesselwang wird in den Wettbewerben
@@ -55,7 +28,7 @@ useSeoMeta({
             Es besteht jeweils ein Zeitrahmen von 60 (in Worten: Sechszig)
             Minuten je Abschnitt. Ein Abschnitt ist entweder die Teilstrecke vom
             Start bis zur Mittelstation oder von der Mittelstation bis zum Ziel.
-            Dabei gilt folgende Anwendung:
+            Dabei gilt folgende Regelung:
           </p>
 
           <ul>
