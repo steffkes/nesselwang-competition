@@ -145,6 +145,16 @@ useHead({
                   </a>
                 </div>
               </div>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link"> Teilnehmende </a>
+
+                <div class="navbar-dropdown">
+                  <a href="/teilnehmende/unterkunft" class="navbar-item">
+                    Unterkunft
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div class="navbar-end is-hidden-mobile">
