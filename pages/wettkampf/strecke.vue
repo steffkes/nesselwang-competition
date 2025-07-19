@@ -49,8 +49,11 @@ useSeoMeta({
         </p>
 
         <p>
-          Weitere Impressionen der Strecke
-          <NuxtLink href="/wettkampf/impressionen">findest du hier</NuxtLink>
+          Du kannst dir auch
+          <NuxtLink href="/wettkampf/impressionen"
+            >weitere Impressionen der Strecke</NuxtLink
+          >
+          anschauen.
         </p>
 
         <p class="title is-4 mt-6">Das Höhenprofil</p>
