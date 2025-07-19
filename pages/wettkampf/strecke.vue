@@ -52,6 +52,18 @@ useSeoMeta({
           Weitere Impressionen der Strecke
           <NuxtLink href="/wettkampf/impressionen">findest du hier</NuxtLink>
         </p>
+
+        <p class="title is-4 mt-6">Das Höhenprofil</p>
+        <p class="subtitle is-6">Dein Weg auf 1'5000 Meter</p>
+
+        <p><img src="/images/elevation-profile.svg" /></p>
+
+        <p>
+          Du kannst dir auch
+          <a href="/fire-trail-nesselwang.gpx"
+            >das komplette Höhenprofil herunterladen</a
+          >, um es dir in aller Ruhe anzuschauen.
+        </p>
       </div>
     </div>
   </section>
