@@ -61,7 +61,7 @@ useSeoMeta({
     :position="{ x: 40 }"
   >
     <p class="title is-4">
-      <a href="https://www.nesselwang.de/alpspitzsplash.html">AlpspitzKICK</a>
+      <a href="https://www.nesselwang.de/alpspitzsplash.html">AlpspitzSPLASH</a>
     </p>
     <p class="subtitle is-6">Nesselwang</p>
 
