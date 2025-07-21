@@ -31,6 +31,7 @@ useSeoMeta({
     url="/images/ausflugsziele/alpspitzkick.jpg"
     :position="{ x: 65 }"
   >
+    <!-- Alpspitzbahn Nesselwang GmbH & Co. KG  -->
     <p class="title is-4">
       <a href="https://www.alpspitzkick.de">AlpspitzKICK</a>
     </p>
@@ -46,6 +47,7 @@ useSeoMeta({
     url="/images/ausflugsziele/alpspitzcoaster.jpg"
     :position="{ x: 60 }"
   >
+    <!-- https://www.youtube.com/watch?v=7FtgL8j-6L0 -->
     <p class="title is-4">
       <a href="https://www.nesselwang.de/alpspitzcoaster-im-allgaeu.html"
         >AlpspitzKICK</a
@@ -70,8 +72,9 @@ useSeoMeta({
 
   <ImageSection
     url="/images/ausflugsziele/schloss-neuschwanstein.jpg"
-    :position="{ x: 60 }"
+    :position="{ x: 20 }"
   >
+    <!-- Jacek Dylag @ https://unsplash.com/photos/white-and-black-castle-DcQ8dSqEosA -->
     <p class="title is-4">
       <a href="https://www.neuschwanstein.de">Schloß Neuschwanstein</a>
     </p>
@@ -87,6 +90,7 @@ useSeoMeta({
     url="/images/ausflugsziele/alpspitz-bade-center.jpg"
     :position="{ x: 45 }"
   >
+    <!-- https://www.youtube.com/watch?v=1o6mltqNYJQ -->
     <p class="title is-4">
       <a href="https://www.nesselwang.de/alpspitz-bade-center-im-allgaeu.html"
         >Alpspitz-Bade-Center</a
