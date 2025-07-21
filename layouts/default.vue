@@ -153,6 +153,9 @@ useHead({
                   <a href="/teilnehmende/unterkunft" class="navbar-item">
                     Unterkunft
                   </a>
+                  <a href="/teilnehmende/ausflugsziele" class="navbar-item">
+                    Ausflugsziele
+                  </a>
                 </div>
               </div>
             </div>
