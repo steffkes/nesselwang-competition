@@ -25,6 +25,16 @@ useSeoMeta({
       >
     </p>
     <p class="subtitle is-6">Sonntag, 19.10.25 @ Nesselwang</p>
+
+    <p>
+      In den Hütten gibt es herbstliche kulinarische Leckerbissen (Wild- und
+      Kürbisgerichte) sowie Live-Musik. Es warten informative und unterhaltsame
+      Aktionen auf die Besucher, wie Erlebniswanderungen mit Ranger Tom
+      Hennemann, die Ausstellung „Wald & Wild“, einen Holzschnitzer und
+      Technikführungen am AlpspitzCOASTER. Und für die kleinen Gäste gibt es ein
+      buntes Kinderprogramm: Hüpfburg, Luftballonkünstler, Bogenschießen und
+      Herbst-Schnitzeljagd.
+    </p>
   </ImageSection>
 
   <ImageSection
@@ -38,8 +48,11 @@ useSeoMeta({
     <p class="subtitle is-6">Nesselwang</p>
 
     <p>
-      Deutschlands längste Zipline! 1,2km talwärts, bis zu 120 km/h schnell -
-      mit einer fantastischen Aussicht über die Voralpenlandschaft
+      Adrenalin pur verspricht der AlpspitzKICK – die längste Zipline
+      Deutschlands mit über 1,2 Kilometern Länge. Gesichert am Drahtseil fliegt
+      man mit bis zu 120 km/h über Wälder, Wiesen und Felshänge hinweg ins Tal –
+      ein unvergessliches Flugerlebnis mit Gänsehautgarantie und einem
+      unbeschreiblichen Gefühl von Freiheit in der Luft.
     </p>
   </ImageSection>
 
@@ -50,12 +63,18 @@ useSeoMeta({
     <!-- https://www.youtube.com/watch?v=7FtgL8j-6L0 -->
     <p class="title is-4">
       <a href="https://www.nesselwang.de/alpspitzcoaster-im-allgaeu.html"
-        >AlpspitzKICK</a
+        >AlpspitzCOASTER</a
       >
     </p>
     <p class="subtitle is-6">Nesselwang</p>
 
-    <p>Benutzung ab 3 Jahren möglich.</p>
+    <p>
+      Benutzung ab 3 Jahren möglich! Für alle, die Geschwindigkeit lieben, ist
+      der AlpspitzCOASTER ein absoluter Hit: Die moderne Schienenrodelbahn
+      schlängelt sich ganzjährig über Wellen, Steilkurven und durch Tunnel ins
+      Tal – über 1.000 Meter pures Fahrvergnügen! Dabei kann jeder selbst Tempo
+      und Kurvenlage bestimmen – Spaß für Groß und Klein mitten im Allgäu.
+    </p>
   </ImageSection>
 
   <ImageSection
@@ -67,7 +86,13 @@ useSeoMeta({
     </p>
     <p class="subtitle is-6">Nesselwang</p>
 
-    <p>Benutzung ab 6 Jahren möglich.</p>
+    <p>
+      Benutzung ab 6 Jahren möglich! Der AlpspitzSPLASH bringt Kletterspaß ins
+      Wasser: auf einem floating Parcours mit Plattformen, Seilen, Netzen und
+      Rutschen in etwa 1,80 m Höhe über dem See testen Besucher ihre Balance,
+      Kraft und Ausdauer – und ein unfreiwilliger Sprung ins kühle Nass gehört
+      dazu!
+    </p>
   </ImageSection>
 
   <ImageSection
@@ -81,8 +106,12 @@ useSeoMeta({
     <p class="subtitle is-6">Füssen/Schwangau</p>
 
     <p>
-      Schloß Neuschwanstein ist UNESCO-Welterbe! Die Besichtigung von Schloss
-      Neuschwanstein ist nur im Rahmen einer Führung möglich.
+      Nur eine halbe Autostunde von Nesselwang entfernt liegt das märchenhafte
+      Schloss Neuschwanstein – eines der berühmtesten Bauwerke Europas. König
+      Ludwig II. ließ hier seine Fantasien in Stein meißeln: Prunkvolle Säle,
+      romantische Türme und eine märchenhafte Kulisse machen den Besuch zu einem
+      Erlebnis wie aus einer anderen Welt – ein unvergesslicher Höhepunkt jeder
+      Allgäu-Reise.
     </p>
   </ImageSection>
 
@@ -97,6 +126,15 @@ useSeoMeta({
       >
     </p>
     <p class="subtitle is-6">Nesselwang</p>
+
+    <p>
+      Egal ob nach einer Wanderung oder an einem Regentag – das
+      Alpspitz-Bade-Center bietet Badespaß und Entspannung für alle
+      Altersgruppen. Mit Wildwasserkanal, 25-Meter-Sportbecken,
+      Kinderspielbereich, großer Sauna- und Wellnesslandschaft sowie einem
+      Strömungskanal und der spektakulären Reifenrutsche „Crazy Bob“ ist für
+      Action und Erholung gleichermaßen gesorgt.
+    </p>
   </ImageSection>
 </template>
 
