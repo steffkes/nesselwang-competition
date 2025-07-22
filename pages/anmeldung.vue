@@ -5,6 +5,10 @@
     <div class="container is-max-desktop">
       <p class="mb-4">
         Teilnahme als Einzel kostet 40 €, Teilnahme als 2er-Staffel kostet 90€.
+        Bitte
+        <NuxtLink href="/wettkampf/regeln"
+          >beachtet die Wettkampf-Regeln</NuxtLink
+        >.
       </p>
 
       <iframe
