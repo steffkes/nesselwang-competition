@@ -129,20 +129,24 @@ useHead({
             :class="{ 'is-active': showNavigation, 'mb-6': showNavigation }"
           >
             <div class="navbar-start">
-              <a href="/" class="navbar-item"> Startseite </a>
+              <NuxtLink href="/" class="navbar-item"> Startseite </NuxtLink>
 
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link"> Wettkampf </a>
 
                 <div class="navbar-dropdown">
-                  <a href="/wettkampf/regeln" class="navbar-item"> Regeln </a>
-                  <a href="/wettkampf/strecke" class="navbar-item"> Strecke </a>
-                  <a href="/wettkampf/zeitplan" class="navbar-item">
+                  <NuxtLink href="/wettkampf/regeln" class="navbar-item">
+                    Regeln
+                  </NuxtLink>
+                  <NuxtLink href="/wettkampf/strecke" class="navbar-item">
+                    Strecke
+                  </NuxtLink>
+                  <NuxtLink href="/wettkampf/zeitplan" class="navbar-item">
                     Zeitplan
-                  </a>
-                  <a href="/wettkampf/impressionen" class="navbar-item">
+                  </NuxtLink>
+                  <NuxtLink href="/wettkampf/impressionen" class="navbar-item">
                     Impressionen
-                  </a>
+                  </NuxtLink>
                 </div>
               </div>
 
@@ -150,12 +154,15 @@ useHead({
                 <a class="navbar-link"> Teilnehmende </a>
 
                 <div class="navbar-dropdown">
-                  <a href="/teilnehmende/unterkunft" class="navbar-item">
+                  <NuxtLink href="/teilnehmende/unterkunft" class="navbar-item">
                     Unterkunft
-                  </a>
-                  <a href="/teilnehmende/ausflugsziele" class="navbar-item">
+                  </NuxtLink>
+                  <NuxtLink
+                    href="/teilnehmende/ausflugsziele"
+                    class="navbar-item"
+                  >
                     Ausflugsziele
-                  </a>
+                  </NuxtLink>
                 </div>
               </div>
             </div>
@@ -163,8 +170,8 @@ useHead({
             <div class="navbar-end is-hidden-mobile">
               <div class="navbar-item">
                 <div class="buttons">
-                  <a href="/anmeldung" class="button is-success"
-                    >Anmelden (noch {{ registration.slots }} frei)</a
+                  <NuxtLink href="/anmeldung" class="button is-success"
+                    >Anmelden (noch {{ registration.slots }} frei)</NuxtLink
                   >
                 </div>
               </div>
@@ -173,8 +180,8 @@ useHead({
         </nav>
 
         <p class="has-text-centered is-hidden-tablet">
-          <a href="/anmeldung" class="button is-success"
-            >Anmelden (noch {{ registration.slots }} frei)</a
+          <NuxtLink href="/anmeldung" class="button is-success"
+            >Anmelden (noch {{ registration.slots }} frei)</NuxtLink
           >
         </p>
       </div>
