@@ -136,6 +136,24 @@ useSeoMeta({
       Action und Erholung gleichermaßen gesorgt.
     </p>
   </ImageSection>
+
+  <ImageSection
+    url="/images/ausflugsziele/walderlebniszentrum.jpg"
+    :position="{ x: 30 }"
+  >
+    <p class="title is-4">
+      <a href="https://www.walderlebniszentrum.eu">Walderlebniszentrum</a>
+    </p>
+    <p class="subtitle is-6">Füssen/Ziegelwies</p>
+
+    <p>
+      Naturabenteuer für die ganze Familie! Entdeckt den Auwald mit einer
+      spannenden Floßfahrt, tobt euch auf dem fantasievollen Abenteuerspielplatz
+      mit Riesenschaukeln und Kletterspinnennetz aus und erlebt auf dem 21 Meter
+      hohen Baumkronenpfad spektakuläre Ausblicke über die Alpen bis nach
+      Österreich!
+    </p>
+  </ImageSection>
 </template>
 
 <style scoped></style>
