@@ -24,7 +24,9 @@ useSeoMeta({
         >Festtag Goldener Oktober</a
       >
     </p>
-    <p class="subtitle is-6">Sonntag, 19.10.25 @ Nesselwang</p>
+    <p class="subtitle is-6">
+      <strong>Sonntag, 19. Oktober 2025</strong> @ Nesselwang (direkt am Berg)
+    </p>
 
     <p>
       In den Hütten gibt es herbstliche kulinarische Leckerbissen (Wild- und
@@ -45,7 +47,7 @@ useSeoMeta({
     <p class="title is-4">
       <a href="https://www.alpspitzkick.de">AlpspitzKICK</a>
     </p>
-    <p class="subtitle is-6">Nesselwang</p>
+    <p class="subtitle is-6">Nesselwang (direkt am Berg)</p>
 
     <p>
       Adrenalin pur verspricht der AlpspitzKICK – die längste Zipline
@@ -66,7 +68,7 @@ useSeoMeta({
         >AlpspitzCOASTER</a
       >
     </p>
-    <p class="subtitle is-6">Nesselwang</p>
+    <p class="subtitle is-6">Nesselwang (direkt am Berg)</p>
 
     <p>
       Benutzung ab 3 Jahren möglich! Für alle, die Geschwindigkeit lieben, ist
@@ -84,7 +86,7 @@ useSeoMeta({
     <p class="title is-4">
       <a href="https://www.nesselwang.de/alpspitzsplash.html">AlpspitzSPLASH</a>
     </p>
-    <p class="subtitle is-6">Nesselwang</p>
+    <p class="subtitle is-6">Nesselwang (direkt am Berg)</p>
 
     <p>
       Benutzung ab 6 Jahren möglich! Der AlpspitzSPLASH bringt Kletterspaß ins
@@ -92,26 +94,6 @@ useSeoMeta({
       Rutschen in etwa 1,80 m Höhe über dem See testen Besucher ihre Balance,
       Kraft und Ausdauer – und ein unfreiwilliger Sprung ins kühle Nass gehört
       dazu!
-    </p>
-  </ImageSection>
-
-  <ImageSection
-    url="/images/ausflugsziele/schloss-neuschwanstein.jpg"
-    :position="{ x: 20 }"
-  >
-    <!-- Jacek Dylag @ https://unsplash.com/photos/white-and-black-castle-DcQ8dSqEosA -->
-    <p class="title is-4">
-      <a href="https://www.neuschwanstein.de">Schloß Neuschwanstein</a>
-    </p>
-    <p class="subtitle is-6">Füssen/Schwangau</p>
-
-    <p>
-      Nur eine halbe Autostunde von Nesselwang entfernt liegt das märchenhafte
-      Schloss Neuschwanstein – eines der berühmtesten Bauwerke Europas. König
-      Ludwig II. ließ hier seine Fantasien in Stein meißeln: Prunkvolle Säle,
-      romantische Türme und eine märchenhafte Kulisse machen den Besuch zu einem
-      Erlebnis wie aus einer anderen Welt – ein unvergesslicher Höhepunkt jeder
-      Allgäu-Reise.
     </p>
   </ImageSection>
 
@@ -125,7 +107,7 @@ useSeoMeta({
         >Alpspitz-Bade-Center</a
       >
     </p>
-    <p class="subtitle is-6">Nesselwang</p>
+    <p class="subtitle is-6">Nesselwang · 🚗 5 Minuten oder 🚶 10 Minuten</p>
 
     <p>
       Egal ob nach einer Wanderung oder an einem Regentag – das
@@ -144,7 +126,7 @@ useSeoMeta({
     <p class="title is-4">
       <a href="https://www.walderlebniszentrum.eu">Walderlebniszentrum</a>
     </p>
-    <p class="subtitle is-6">Füssen/Ziegelwies</p>
+    <p class="subtitle is-6">Füssen/Ziegelwies · 🚗 25 Minuten</p>
 
     <p>
       Naturabenteuer für die ganze Familie! Entdeckt den Auwald mit einer
@@ -152,6 +134,26 @@ useSeoMeta({
       mit Riesenschaukeln und Kletterspinnennetz aus und erlebt auf dem 21 Meter
       hohen Baumkronenpfad spektakuläre Ausblicke über die Alpen bis nach
       Österreich!
+    </p>
+  </ImageSection>
+
+  <ImageSection
+    url="/images/ausflugsziele/schloss-neuschwanstein.jpg"
+    :position="{ x: 20 }"
+  >
+    <!-- Jacek Dylag @ https://unsplash.com/photos/white-and-black-castle-DcQ8dSqEosA -->
+    <p class="title is-4">
+      <a href="https://www.neuschwanstein.de">Schloß Neuschwanstein</a>
+    </p>
+    <p class="subtitle is-6">Füssen/Schwangau · 🚗 30 Minuten</p>
+
+    <p>
+      Nur eine halbe Autostunde von Nesselwang entfernt liegt das märchenhafte
+      Schloss Neuschwanstein – eines der berühmtesten Bauwerke Europas. König
+      Ludwig II. ließ hier seine Fantasien in Stein meißeln: Prunkvolle Säle,
+      romantische Türme und eine märchenhafte Kulisse machen den Besuch zu einem
+      Erlebnis wie aus einer anderen Welt – ein unvergesslicher Höhepunkt jeder
+      Allgäu-Reise.
     </p>
   </ImageSection>
 </template>
