@@ -212,6 +212,18 @@ useSeoMeta({
           </li>
         </ul>
 
+        <h3>Wertungsklassen</h3>
+
+        <ul>
+          <li><MarkIt>Einzel</MarkIt> Männer & Frauen</li>
+          <li><MarkIt>2er-Staffel</MarkIt> Männer, Mixed & Frauen</li>
+        </ul>
+        <p>
+          Eine Wertungsklasse wird nur dann prämiert, wenn mindestens fünf
+          Startplätze antreten. Heißt zum Beispiel: Wenn mindestens fünf Männer
+          im Einzel antreten, gibt’s für die ersten drei Plätze einen Pokal.
+        </p>
+
         <h3>Zubehör</h3>
 
         <ul>
