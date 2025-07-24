@@ -165,6 +165,10 @@ useHead({
                   </NuxtLink>
                 </div>
               </div>
+
+              <NuxtLink href="/helfende" class="navbar-item">
+                Helfende
+              </NuxtLink>
             </div>
 
             <div class="navbar-end is-hidden-mobile">
