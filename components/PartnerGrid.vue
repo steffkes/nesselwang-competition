@@ -10,7 +10,7 @@
 
   <section class="section">
     <div class="container is-max-desktop">
-      <div class="fixed-grid has-5-cols">
+      <div class="fixed-grid has-4-cols has-3-cols-mobile">
         <div class="grid">
           <div class="cell">
             <img src="/images/partner/markt-nesselwang.svg" class="invert" />
