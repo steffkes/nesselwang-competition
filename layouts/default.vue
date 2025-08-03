@@ -215,9 +215,9 @@ useHead({
               </div>
             </div>
           </div>
-          <div class="column competitions">
+          <div class="column is-4 competitions">
             <div class="columns is-mobile">
-              <div class="column">
+              <div class="column has-text-centered">
                 <img
                   src="/images/fire-trail-nesselwang.svg"
                   alt="Logo Fire Trail Nesselwang"
@@ -225,11 +225,11 @@ useHead({
                 <p class="has-text-centered">
                   <span>Fire Trail</span>
                   <span>Nesselwang</span>
-                  <span class="has-text-grey-light">(Organisator)</span>
+                  <span class="tag mt-2 is-success">Sa, 18.10.25</span>
                 </p>
               </div>
-              <div class="column">
-                <a href="https://www.schachmatt-ulm.de">
+              <div class="column has-text-centered">
+                <a href="//www.schachmatt-ulm.de">
                   <img
                     src="/images/schachmatt-ulm.svg"
                     alt="Logo Schachmatt Ulm"
@@ -237,12 +237,29 @@ useHead({
                   <p class="has-text-centered">
                     <span>Schachmatt</span>
                     <span>Ulm</span>
-                    <span class="has-text-grey-light">(Organisator)</span>
+                    <span class="tag mt-2">Frühjahr '26</span>
                   </p>
                 </a>
               </div>
-              <div class="column">
-                <a href="https://www.schanzenlauf-oberstdorf.de">
+            </div>
+          </div>
+          <div class="column is-4 competitions">
+            <div class="columns is-mobile">
+              <div class="column has-text-centered">
+                <a href="//muensterturmlauf-ulm.gelungen.es">
+                  <img
+                    src="/images/muensterturmlauf-ulm.svg"
+                    alt="Logo Münsterturmlauf Ulm"
+                  />
+                  <p class="has-text-centered">
+                    <span>Münsterturmlauf</span>
+                    <span>Ulm</span>
+                    <span class="tag mt-2 is-info">Fr, 12.06.26</span>
+                  </p>
+                </a>
+              </div>
+              <div class="column has-text-centered">
+                <a href="//www.schanzenlauf-oberstdorf.de">
                   <img
                     src="/images/schanzenlauf-oberstdorf.svg"
                     alt="Logo Schanzenlauf Oberstdorf"
@@ -250,7 +267,6 @@ useHead({
                   <p class="has-text-centered">
                     <span>Schanzenlauf</span>
                     <span>Oberstdorf</span>
-                    <span class="has-text-grey-light">(Initiator)</span>
                   </p>
                 </a>
               </div>
@@ -269,6 +285,9 @@ useHead({
 <style scoped>
 .competitions span {
   display: block;
+}
+.competitions span.tag {
+  padding-top: 3px;
 }
 .competitions img {
   filter: grayscale(1);
