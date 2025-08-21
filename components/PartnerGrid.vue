@@ -30,6 +30,9 @@
           <div class="cell">
             <img src="/images/partner/explorer-hotels.svg" />
           </div>
+          <div class="cell">
+            <img src="/images/partner/zoetler.webp" />
+          </div>
         </div>
       </div>
     </div>
