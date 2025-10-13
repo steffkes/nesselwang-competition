@@ -85,6 +85,11 @@ useSeoMeta({
             2.1.7 & 1.1 Anlage 1)
           </li>
         </ul>
+
+        <div class="notification is-danger">
+          <p>Das Mitführen und Benutzen von Wanderstöcken ist verboten</p>
+        </div>
+
         <p>Die Ausrüstung wird vor dem Start vom Veranstalter überprüft.</p>
 
         <h3 id="disqualifikation">Disqualifikation</h3>
