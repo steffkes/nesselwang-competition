@@ -150,6 +150,12 @@ useHead({
                 <a class="navbar-link"> Teilnehmende </a>
 
                 <div class="navbar-dropdown">
+                  <a
+                    href="https://go.fire-trail-nesselwang.de/startliste"
+                    class="navbar-item"
+                  >
+                    Startliste
+                  </a>
                   <a href="/teilnehmende/unterkunft" class="navbar-item">
                     Unterkunft
                   </a>
@@ -165,8 +171,13 @@ useHead({
             <div class="navbar-end is-hidden-mobile">
               <div class="navbar-item">
                 <div class="buttons">
-                  <a href="/anmeldung" class="button is-success"
-                    >Anmelden (noch {{ registration.slots }} frei)</a
+                  <a
+                    href="https://go.fire-trail-nesselwang.de/startliste"
+                    class="button is-success"
+                    >Startliste für Samstag</a
+                  >
+                  <a href="/anmeldung" class="button is-info is-outlined"
+                    >Anmelden</a
                   >
                 </div>
               </div>
@@ -175,8 +186,13 @@ useHead({
         </nav>
 
         <p class="has-text-centered is-hidden-tablet">
-          <a href="/anmeldung" class="button is-success"
-            >Anmelden (noch {{ registration.slots }} frei)</a
+          <a
+            href="https://go.fire-trail-nesselwang.de/startliste"
+            class="button is-success"
+            >Startliste für Samstag</a
+          >
+          <a href="/anmeldung" class="ml-4 button is-info is-outlined"
+            >Anmelden</a
           >
         </p>
       </div>
