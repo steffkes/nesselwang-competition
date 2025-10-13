@@ -135,11 +135,11 @@ useHead({
                 <a class="navbar-link"> Wettkampf </a>
 
                 <div class="navbar-dropdown">
-                  <a href="/wettkampf/regeln" class="navbar-item"> Regeln </a>
-                  <a href="/wettkampf/strecke" class="navbar-item"> Strecke </a>
                   <a href="/wettkampf/zeitplan" class="navbar-item">
                     Zeitplan
                   </a>
+                  <a href="/wettkampf/regeln" class="navbar-item"> Regeln </a>
+                  <a href="/wettkampf/strecke" class="navbar-item"> Strecke </a>
                   <a href="/wettkampf/impressionen" class="navbar-item">
                     Impressionen
                   </a>

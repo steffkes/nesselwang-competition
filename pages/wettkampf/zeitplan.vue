@@ -10,26 +10,36 @@ useSeoMeta({
     <div class="container is-max-desktop">
       <h1 class="title">Der zeitliche Ablauf</h1>
 
-      <div class="notification">
-        <p>Vorläufiger Zeitplan</p>
-      </div>
-
       <div class="content">
         <h3>Freitag</h3>
 
         <ul>
-          <li>Ausgabe der Startunterlagen</li>
-          <li>Pasta-Party @ Feuerwehr Nesselwang</li>
+          <li>
+            <span class="tag is-light">17:00-19:00</span> Ausgabe der
+            Startunterlagen (im Gerätehaus der Feuerwehr Nesselwang)
+          </li>
+          <li>
+            <span class="tag is-light">ab 18:00</span> Pasta-Party @ Feuerwehr
+            Nesselwang (Gerätehaus offen ab 17:00 Uhr)
+          </li>
         </ul>
 
         <h3>Samstag</h3>
 
         <ul>
-          <li>Ausgabe der Startunterlagen</li>
-          <li>Startschuss für den ersten Läufer</li>
-          <li>Ende der Veranstaltung</li>
-          <li>Siegerehrung</li>
-          <li>Grill-Abend @ Feuerwehr Nesselwang</li>
+          <li>
+            <span class="tag is-light">08:00-10:00</span> Ausgabe der
+            Startunterlagen (im Startbereich am Explorer Hotel)
+          </li>
+          <li>
+            <span class="tag is-light">10:00</span> Startschuss für den ersten
+            Läufer
+          </li>
+          <li><span class="tag is-light">13:00</span> Siegerehrung</li>
+          <li>
+            <span class="tag is-light">ab 18:00</span> Grill-Abend @ Feuerwehr
+            Nesselwang (Gerätehaus offen ab 17:00 Uhr)
+          </li>
         </ul>
 
         <h3>Sonntag</h3>
