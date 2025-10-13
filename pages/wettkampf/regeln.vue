@@ -11,15 +11,19 @@ useSeoMeta({
       <h1 id="regeln" class="title">Wettkampfregeln</h1>
 
       <div class="content">
-        <div class="notification is-link">
+        <div class="notification is-info">
           <p>
-            Der Fire Trail Nesselwang wird in den Wettbewerben
-            <MarkIt>Einzel</MarkIt> und
-            <MarkIt>2er-Staffel</MarkIt> durchgeführt. So lang nicht explizit
-            gekennzeichnet, gelten die nachfolgenden Regeln für beide
-            Wettbewerbe gleichermaßen.
+            Startschuss (für Einzel und Staffel) <strong>um 10:00 Uhr</strong>,
+            danach Einzelstart alle 30 Sekunden (nach aufsteigender Startnummer)
           </p>
         </div>
+
+        <p>
+          Der Fire Trail Nesselwang wird in den Wettbewerben
+          <MarkIt>Einzel</MarkIt> und <MarkIt>2er-Staffel</MarkIt> durchgeführt.
+          So lang nicht explizit gekennzeichnet, gelten die nachfolgenden Regeln
+          für beide Wettbewerbe gleichermaßen.
+        </p>
 
         <div class="notification is-warning">
           <h3>Zeitüberschreitung</h3>
@@ -205,6 +209,10 @@ useSeoMeta({
             (in Worten: fünfundvierzig) Minuten nach dem ersten Läufer. Falls
             der erste Läufer binnen dieser Zeit an der Mittelstation ankommt,
             erfolgt eine klassische Staffelübergabe..
+          </li>
+          <li>
+            Startschuss (für Einzel und Staffel) um 10:00 Uhr, danach
+            Einzelstart alle 30 Sekunden (nach aufsteigender Startnummer)
           </li>
         </ul>
 

@@ -26,6 +26,13 @@ useSeoMeta({
 
         <h3>Samstag</h3>
 
+        <div class="notification is-info">
+          <p>
+            Startschuss (für Einzel und Staffel) <strong>um 10:00 Uhr</strong>,
+            danach Einzelstart alle 30 Sekunden (nach aufsteigender Startnummer)
+          </p>
+        </div>
+
         <ul>
           <li>
             <span class="tag is-light">08:00-10:00</span> Ausgabe der
