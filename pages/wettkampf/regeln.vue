@@ -21,13 +21,13 @@ useSeoMeta({
           </p>
         </div>
 
-        <div class="notification has-background-warning-light">
+        <div class="notification is-warning">
           <h3>Zeitüberschreitung</h3>
 
           <p>
             Es besteht jeweils ein Zeitrahmen von 60 (in Worten: Sechszig)
-            Minuten je Abschnitt. Ein Abschnitt ist entweder die Teilstrecke vom
-            Start bis zur Mittelstation oder von der Mittelstation bis zum Ziel.
+            Minuten je Abschnitt. Ein Abschnitt ist die Teilstrecke vom Start
+            bis zur Mittelstation als auch von der Mittelstation bis zum Ziel.
             Dabei gilt folgende Regelung:
           </p>
 
