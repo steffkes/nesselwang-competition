@@ -129,24 +129,20 @@ useHead({
             :class="{ 'is-active': showNavigation, 'mb-6': showNavigation }"
           >
             <div class="navbar-start">
-              <NuxtLink href="/" class="navbar-item"> Startseite </NuxtLink>
+              <a href="/" class="navbar-item"> Startseite </a>
 
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link"> Wettkampf </a>
 
                 <div class="navbar-dropdown">
-                  <NuxtLink href="/wettkampf/regeln" class="navbar-item">
-                    Regeln
-                  </NuxtLink>
-                  <NuxtLink href="/wettkampf/strecke" class="navbar-item">
-                    Strecke
-                  </NuxtLink>
-                  <NuxtLink href="/wettkampf/zeitplan" class="navbar-item">
+                  <a href="/wettkampf/regeln" class="navbar-item"> Regeln </a>
+                  <a href="/wettkampf/strecke" class="navbar-item"> Strecke </a>
+                  <a href="/wettkampf/zeitplan" class="navbar-item">
                     Zeitplan
-                  </NuxtLink>
-                  <NuxtLink href="/wettkampf/impressionen" class="navbar-item">
+                  </a>
+                  <a href="/wettkampf/impressionen" class="navbar-item">
                     Impressionen
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
 
@@ -154,28 +150,23 @@ useHead({
                 <a class="navbar-link"> Teilnehmende </a>
 
                 <div class="navbar-dropdown">
-                  <NuxtLink href="/teilnehmende/unterkunft" class="navbar-item">
+                  <a href="/teilnehmende/unterkunft" class="navbar-item">
                     Unterkunft
-                  </NuxtLink>
-                  <NuxtLink
-                    href="/teilnehmende/ausflugsziele"
-                    class="navbar-item"
-                  >
+                  </a>
+                  <a href="/teilnehmende/ausflugsziele" class="navbar-item">
                     Ausflugsziele
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
 
-              <NuxtLink href="/helfende" class="navbar-item">
-                Helfende
-              </NuxtLink>
+              <a href="/helfende" class="navbar-item"> Helfende </a>
             </div>
 
             <div class="navbar-end is-hidden-mobile">
               <div class="navbar-item">
                 <div class="buttons">
-                  <NuxtLink href="/anmeldung" class="button is-success"
-                    >Anmelden (noch {{ registration.slots }} frei)</NuxtLink
+                  <a href="/anmeldung" class="button is-success"
+                    >Anmelden (noch {{ registration.slots }} frei)</a
                   >
                 </div>
               </div>
@@ -184,8 +175,8 @@ useHead({
         </nav>
 
         <p class="has-text-centered is-hidden-tablet">
-          <NuxtLink href="/anmeldung" class="button is-success"
-            >Anmelden (noch {{ registration.slots }} frei)</NuxtLink
+          <a href="/anmeldung" class="button is-success"
+            >Anmelden (noch {{ registration.slots }} frei)</a
           >
         </p>
       </div>
@@ -198,7 +189,7 @@ useHead({
     <footer class="footer">
       <div class="container is-max-desktop">
         <div class="columns">
-          <div class="column">
+          <div class="column is-4">
             <div class="columns is-mobile">
               <div class="column is-4">
                 <img src="/images/stefan.jpg" alt="Bild Stefan Matheis" />
@@ -215,7 +206,37 @@ useHead({
               </div>
             </div>
           </div>
-          <div class="column is-4 competitions">
+
+          <div class="column">
+            <div class="columns is-mobile">
+              <div class="column">
+                Wir sind gelistet im
+                <div class="columns is-mobile">
+                  <div class="column is-4">
+                    <img src="/images/stefan.jpg" alt="Bild Stefan Matheis" />
+                  </div>
+                  <div class="column">
+                    <p>Fragen? Anregungen? Presse. Sponsoring.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                Wir sind gelistet im
+                <div class="columns is-mobile">
+                  <div class="column is-4">
+                    <img src="/images/stefan.jpg" alt="Bild Stefan Matheis" />
+                  </div>
+                  <div class="column">
+                    <p>Fragen? Anregungen? Presse. Sponsoring.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column competitions">
             <div class="columns is-mobile">
               <div class="column has-text-centered">
                 <img
@@ -243,7 +264,7 @@ useHead({
               </div>
             </div>
           </div>
-          <div class="column is-4 competitions">
+          <div class="column competitions">
             <div class="columns is-mobile">
               <div class="column has-text-centered">
                 <a href="//muensterturmlauf-ulm.gelungen.es">
