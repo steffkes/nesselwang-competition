@@ -214,33 +214,6 @@ useHead({
               </div>
             </div>
           </div>
-
-          <div class="column">
-            <div class="columns is-mobile">
-              <div class="column">
-                Wir sind gelistet im
-                <div class="columns is-mobile">
-                  <div class="column is-4">
-                    <img src="/images/stefan.jpg" alt="Bild Stefan Matheis" />
-                  </div>
-                  <div class="column">
-                    <p>Fragen? Anregungen? Presse. Sponsoring.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                Wir sind gelistet im
-                <div class="columns is-mobile">
-                  <div class="column is-4">
-                    <img src="/images/stefan.jpg" alt="Bild Stefan Matheis" />
-                  </div>
-                  <div class="column">
-                    <p>Fragen? Anregungen? Presse. Sponsoring.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div class="columns">
