@@ -16,30 +16,6 @@ useSeoMeta({
   </section>
 
   <ImageSection
-    url="/images/ausflugsziele/goldener-oktober.jpg"
-    :position="{ x: 40 }"
-  >
-    <p class="title is-4">
-      <a href="https://www.nesselwang.de/festtag-goldener-oktober.html"
-        >Festtag Goldener Oktober</a
-      >
-    </p>
-    <p class="subtitle is-6">
-      <strong>Sonntag, 19. Oktober 2025</strong> @ Nesselwang (direkt am Berg)
-    </p>
-
-    <p>
-      In den Hütten gibt es herbstliche kulinarische Leckerbissen (Wild- und
-      Kürbisgerichte) sowie Live-Musik. Es warten informative und unterhaltsame
-      Aktionen auf die Besucher, wie Erlebniswanderungen mit Ranger Tom
-      Hennemann, die Ausstellung „Wald & Wild“, einen Holzschnitzer und
-      Technikführungen am AlpspitzCOASTER. Und für die kleinen Gäste gibt es ein
-      buntes Kinderprogramm: Hüpfburg, Luftballonkünstler, Bogenschießen und
-      Herbst-Schnitzeljagd.
-    </p>
-  </ImageSection>
-
-  <ImageSection
     url="/images/ausflugsziele/alpspitzkick.jpg"
     :position="{ x: 65 }"
   >
