@@ -30,6 +30,14 @@ const showThisImage = (event) =>
         Impressionen vom Wasserfallweg, der Bayernkurve & vom Ziel
       </p>
 
+      <div class="notification is-info">
+        <p>
+          <a href="//go.fire-trail-nesselwang.de/impressionen"
+            >Alle Bilder vom 1. Fire Trail Nesselwang</a
+          >, der am Samstag, den 18.10.2025 stattfand.
+        </p>
+      </div>
+
       <div class="content">
         <p>
           Eine animierte Darstellung der Strecke
