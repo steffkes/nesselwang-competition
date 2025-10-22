@@ -168,6 +168,11 @@ useHead({
                     class="button is-success"
                     >Ergebnisse 2025</a
                   >
+                  <a
+                    href="//go.fire-trail-nesselwang.de/impressionen"
+                    class="button is-success"
+                    >Fotos 2025</a
+                  >
                 </div>
               </div>
             </div>
@@ -179,6 +184,11 @@ useHead({
             href="//go.fire-trail-nesselwang.de/ergebnisse"
             class="button is-success"
             >Ergebnisse 2025</a
+          >
+          <a
+            href="//go.fire-trail-nesselwang.de/impressionen"
+            class="button is-success ml-2"
+            >Fotos 2025</a
           >
         </p>
       </div>
