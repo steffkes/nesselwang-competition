@@ -164,8 +164,6 @@ useHead({
                   </a>
                 </div>
               </div>
-
-              <a href="/helfende" class="navbar-item"> Helfende </a>
             </div>
 
             <div class="navbar-end is-hidden-mobile">

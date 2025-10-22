@@ -12,13 +12,16 @@ const handleError = () => clearError({ redirect: "/" });
   <NuxtLayout>
     <section class="section">
       <div class="container is-max-desktop">
-        <h1 class="title">Fehler {{ error?.statusCode }}</h1>
-        <p class="subtitle">Hast du dich verlaufen?</p>
+        <h1 class="title">
+          Der 1. Fire Trail Nesselwang fand am 18.10.2025 statt
+        </h1>
+        <p class="mb-6">Die aufgeraufene Seite existiert nicht (mehr).</p>
         <button @click="handleError" class="button">
           Bring mich zur Startseite
         </button>
-        <p v-if="error?.statusMessage" class="mt-6 has-text-grey-lighter">
-          {{ error.statusMessage }}
+        <p class="mt-6 has-text-grey-lighter">
+          Fehler {{ error?.statusCode }}
+          <span v-if="error?.statusMessage"> / {{ error.statusMessage }} </span>
         </p>
       </div>
     </section>
