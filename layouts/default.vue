@@ -150,12 +150,6 @@ useHead({
                 <a class="navbar-link"> Teilnehmende </a>
 
                 <div class="navbar-dropdown">
-                  <a
-                    href="https://go.fire-trail-nesselwang.de/startliste"
-                    class="navbar-item"
-                  >
-                    Startliste
-                  </a>
                   <a href="/teilnehmende/unterkunft" class="navbar-item">
                     Unterkunft
                   </a>
