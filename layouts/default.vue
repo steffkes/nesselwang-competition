@@ -224,17 +224,6 @@ useHead({
           <div class="column competitions">
             <div class="columns is-mobile">
               <div class="column has-text-centered">
-                <img
-                  src="/images/fire-trail-nesselwang.svg"
-                  alt="Logo Fire Trail Nesselwang"
-                />
-                <p class="has-text-centered">
-                  <span>Fire Trail</span>
-                  <span>Nesselwang</span>
-                  <span class="tag mt-2 is-success">Sa, 18.10.25</span>
-                </p>
-              </div>
-              <div class="column has-text-centered">
                 <a href="//www.schachmatt-ulm.de">
                   <img
                     src="/images/schachmatt-ulm.svg"
@@ -243,14 +232,10 @@ useHead({
                   <p class="has-text-centered">
                     <span>Schachmatt</span>
                     <span>Ulm</span>
-                    <span class="tag mt-2">Frühjahr '26</span>
+                    <span class="tag mt-2 is-success">So, 01.02.26</span>
                   </p>
                 </a>
               </div>
-            </div>
-          </div>
-          <div class="column competitions">
-            <div class="columns is-mobile">
               <div class="column has-text-centered">
                 <a href="//muensterturmlauf-ulm.gelungen.es">
                   <img
@@ -263,6 +248,21 @@ useHead({
                     <span class="tag mt-2 is-info">Fr, 12.06.26</span>
                   </p>
                 </a>
+              </div>
+            </div>
+          </div>
+          <div class="column competitions">
+            <div class="columns is-mobile">
+              <div class="column has-text-centered">
+                <img
+                  src="/images/fire-trail-nesselwang.svg"
+                  alt="Logo Fire Trail Nesselwang"
+                />
+                <p class="has-text-centered">
+                  <span>Fire Trail</span>
+                  <span>Nesselwang</span>
+                  <span class="tag mt-2">Oktober '26</span>
+                </p>
               </div>
               <div class="column has-text-centered">
                 <a href="//www.schanzenlauf-oberstdorf.de">
