@@ -198,104 +198,10 @@ useHead({
 
     <PartnerGrid />
 
-    <footer class="footer">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-4">
-            <div class="columns is-mobile">
-              <div class="column is-4">
-                <img src="/images/stefan.jpg" alt="Bild Stefan Matheis" />
-              </div>
-              <div class="column">
-                <p>Fragen? Anregungen? Presse. Sponsoring.</p>
-                <p class="mt-4">
-                  <strong>Stefan Matheis</strong><br />
-                  <a href="mailto:stefan.matheis@fire-trail-nesselwang.de"
-                    >✉️ stefan.matheis@fire-trail-nesselwang.de</a
-                  ><br />
-                  <a href="tel:004916097048114">📞 +49 160 970 48 114</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="columns">
-          <div class="column competitions">
-            <div class="columns is-mobile">
-              <div class="column has-text-centered">
-                <a href="//www.schachmatt-ulm.de">
-                  <img
-                    src="/images/schachmatt-ulm.svg"
-                    alt="Logo Schachmatt Ulm"
-                  />
-                  <p class="has-text-centered">
-                    <span>Schachmatt</span>
-                    <span>Ulm</span>
-                    <span class="tag mt-2 is-success">So, 01.02.26</span>
-                  </p>
-                </a>
-              </div>
-              <div class="column has-text-centered">
-                <a href="//muensterturmlauf-ulm.gelungen.es">
-                  <img
-                    src="/images/muensterturmlauf-ulm.svg"
-                    alt="Logo Münsterturmlauf Ulm"
-                  />
-                  <p class="has-text-centered">
-                    <span>Münsterturmlauf</span>
-                    <span>Ulm</span>
-                    <span class="tag mt-2 is-info">Fr, 12.06.26</span>
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="column competitions">
-            <div class="columns is-mobile">
-              <div class="column has-text-centered">
-                <img
-                  src="/images/fire-trail-nesselwang.svg"
-                  alt="Logo Fire Trail Nesselwang"
-                />
-                <p class="has-text-centered">
-                  <span>Fire Trail</span>
-                  <span>Nesselwang</span>
-                  <span class="tag mt-2">Oktober '26</span>
-                </p>
-              </div>
-              <div class="column has-text-centered">
-                <a href="//www.schanzenlauf-oberstdorf.de">
-                  <img
-                    src="/images/schanzenlauf-oberstdorf.svg"
-                    alt="Logo Schanzenlauf Oberstdorf"
-                  />
-                  <p class="has-text-centered">
-                    <span>Schanzenlauf</span>
-                    <span>Oberstdorf</span>
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <CompetitionsFooter mail="stefan.matheis@fire-trail-nesselwang.de" />
   </div>
 </template>
 
 <style>
 @import url("bulma");
-</style>
-
-<style scoped>
-.competitions span {
-  display: block;
-}
-.competitions span.tag {
-  padding-top: 3px;
-}
-.competitions img {
-  filter: grayscale(1);
-}
 </style>
