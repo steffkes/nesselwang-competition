@@ -198,6 +198,14 @@ useHead({
 
     <PartnerGrid />
 
+    <section>
+      <div class="container is-max-desktop">
+        <p class="has-text-right">
+          <a href="/impressum" class="has-text-grey-light">Impressum</a>
+        </p>
+      </div>
+    </section>
+
     <CompetitionsFooter mail="stefan.matheis@fire-trail-nesselwang.de" />
   </div>
 </template>
