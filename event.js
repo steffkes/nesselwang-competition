@@ -5,8 +5,8 @@ export const event = {
   "@type": "SportsEvent",
   name: eventName,
   description: "Feuerwehr-Treppen- & Berglauf auf die Alpspitz Nesselwang",
-  startDate: "2025-10-18",
-  endDate: "2025-10-18",
+  startDate: "2026-10-10",
+  endDate: "2026-10-10",
   eventStatus: "https://schema.org/EventScheduled",
   eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
   organizer: {
