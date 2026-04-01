@@ -4,15 +4,14 @@
   <section class="section">
     <div class="container is-max-desktop">
       <p class="mb-4">
-        Teilnahme als Einzel kostet 40 €, Teilnahme als 2er-Staffel kostet 90€.
-        Bitte
-        <NuxtLink href="/wettkampf/regeln"
-          >beachtet die Wettkampf-Regeln</NuxtLink
-        >.
+        Bitte beachtet
+        <NuxtLink href="/wettkampf/tickets"> unsere Ticket-Preise</NuxtLink>
+        sowie
+        <NuxtLink href="/wettkampf/regeln"> die Wettkampf-Regeln</NuxtLink>.
       </p>
 
       <iframe
-        src="https://events.raceresult.com/registrations/?event=343456&n=Einzel_Anmeldung&k=lOvTMKQARkrW"
+        src="//events.raceresult.com/registrations/?event=387452&n=Einzel_Anmeldung&k=lOvTMKQARkrW"
         width="100%"
         height="700"
       ></iframe>

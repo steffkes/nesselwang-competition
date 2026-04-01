@@ -164,15 +164,8 @@ useHead({
             <div class="navbar-end is-hidden-mobile">
               <div class="navbar-item">
                 <div class="buttons">
-                  <a
-                    href="//go.fire-trail-nesselwang.de/ergebnisse"
-                    class="button is-success"
-                    >Ergebnisse 2025</a
-                  >
-                  <a
-                    href="//go.fire-trail-nesselwang.de/impressionen"
-                    class="button is-success"
-                    >Fotos 2025</a
+                  <a href="/anmeldung" class="button is-success"
+                    >Anmeldung 2026</a
                   >
                 </div>
               </div>
@@ -181,16 +174,7 @@ useHead({
         </nav>
 
         <p class="has-text-centered is-hidden-tablet">
-          <a
-            href="//go.fire-trail-nesselwang.de/ergebnisse"
-            class="button is-success"
-            >Ergebnisse 2025</a
-          >
-          <a
-            href="//go.fire-trail-nesselwang.de/impressionen"
-            class="button is-success ml-2"
-            >Fotos 2025</a
-          >
+          <a href="/anmeldung" class="button is-success">Anmeldung 2026</a>
         </p>
       </div>
     </section>
