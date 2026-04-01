@@ -33,9 +33,9 @@ export const event = {
     },
   },
   image: [
-    "https://nesselwang-competition.vercel.app/images/1x1.jpg",
-    "https://nesselwang-competition.vercel.app/images/4x3.jpg",
-    "https://nesselwang-competition.vercel.app/images/16x9.jpg",
+    "http://www.fire-trail-nesselwang.de/images/1x1.jpg",
+    "http://www.fire-trail-nesselwang.de/images/4x3.jpg",
+    "http://www.fire-trail-nesselwang.de/images/16x9.jpg",
   ],
   offers: [
     {
