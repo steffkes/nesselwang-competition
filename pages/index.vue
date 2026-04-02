@@ -4,14 +4,14 @@
       <div class="container is-max-desktop">
         <div class="content">
           <p class="has-text-centered">
-            Der <strong>Fire Trail Nesselwang</strong> fand erstmalig statt am
+            Der 1. <strong>Fire Trail Nesselwang</strong> fand am
             <strong>Samstag, 18.10.25</strong> an der
-            <strong>Alpspitzbahn Nesselwang</strong>.
+            <strong>Alpspitzbahn Nesselwang</strong> statt.
           </p>
           <p class="has-text-centered">
             <NuxtLink
               href="//go.fire-trail-nesselwang.de/ergebnisse"
-              class="button is-success is-medium"
+              class="button is-info is-outlined"
               >Ergebnisse 2025</NuxtLink
             >
           </p>
