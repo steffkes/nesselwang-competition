@@ -19,12 +19,12 @@ useSeoMeta({
           </tr>
         </thead>
         <tbody>
-          <tr class="is-selected">
+          <tr>
             <td class="dt">29.03.2026 – 26.07.2026</td>
             <td class="ar">40 €</td>
             <td class="ar">90 €</td>
           </tr>
-          <tr>
+          <tr class="is-selected">
             <td class="dt">27.07.2026 – 10.09.2026</td>
             <td class="ar">50 €</td>
             <td class="ar">100 €</td>
