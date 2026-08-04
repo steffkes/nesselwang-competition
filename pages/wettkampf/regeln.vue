@@ -29,24 +29,23 @@ useSeoMeta({
           <h3>Zeitüberschreitung</h3>
 
           <p>
-            Es besteht jeweils ein Zeitrahmen von 60 (in Worten: Sechszig)
-            Minuten je Abschnitt. Ein Abschnitt ist die Teilstrecke vom Start
-            bis zur Mittelstation als auch von der Mittelstation bis zum Ziel.
-            Dabei gilt folgende Regelung:
+            Für jeden Abschnitt (Start–Mittelstation bzw. Mittelstation–Ziel)
+            gilt ein Zeitlimit von 60 (in Worten: sechzig) Minuten.
           </p>
 
           <ul>
             <li>
-              <MarkIt>Einzel</MarkIt> Wenn der Läufer in einem der beiden
-              Abschnitte mehr als 60 (in Worten: Sechzig) benötigt,
-              <a href="#disqualifikation">wird er disqualifiziert</a>.
+              <MarkIt>Einzel</MarkIt> Wer in einem Abschnitt länger als 60 (in
+              Worten: sechzig) Minuten benötigt,
+              <a href="#disqualifikation">wird disqualifiziert</a>.
             </li>
             <li>
-              <MarkIt>2er-Staffel</MarkIt> Benötigt ein Läufer für seinen
-              Abschnitt länger als 60 (in Worten: Sechszig) Minuten, bekommt das
-              Team 15 (in Worten: Fünfzehn) Minuten Zeitstrafe (zusätzlich zur
-              gelaufenen Zeit) – und zwar für jeden Abschnitt, bei dem die Zeit
-              überschritten wurde.
+              <MarkIt>2er-Staffel</MarkIt> Benötigt der Startläufer länger als
+              60 (in Worten: sechzig) Minuten, startet der Zielläufer nach
+              Ablauf der 60 Minuten automatisch. Das Team erhält hierfür eine
+              Zeitstrafe von 15 (in Worten: fünfzehn) Minuten. Überschreitet
+              auch der Zielläufer das Zeitlimit, werden weitere 15 (in Worten:
+              fünfzehn) Minuten Zeitstrafe addiert.
             </li>
           </ul>
         </div>
