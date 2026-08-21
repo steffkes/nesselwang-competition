@@ -21,12 +21,6 @@ useHead({
   ],
   script: [
     {
-      src: "/pl/script.js",
-      "data-api": "/pl/event",
-      "data-domain": "fire-trail-nesselwang.de",
-      defer: true,
-    },
-    {
       type: "application/ld+json",
       children: JSON.stringify(event),
     },
