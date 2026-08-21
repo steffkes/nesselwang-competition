@@ -135,6 +135,9 @@ useHead({
                     Zeitplan
                   </a>
                   <a href="/wettkampf/tickets" class="navbar-item"> Tickets </a>
+                  <a href="/wettkampf/bestzeiten" class="navbar-item">
+                    Bestzeiten
+                  </a>
                   <a href="/wettkampf/regeln" class="navbar-item"> Regeln </a>
                   <a href="/wettkampf/strecke" class="navbar-item"> Strecke </a>
                   <a href="/wettkampf/impressionen" class="navbar-item">
