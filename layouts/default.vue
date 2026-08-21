@@ -5,7 +5,7 @@ const activeModal = ref(false);
 const showNavigation = ref(false);
 
 useSeoMeta({
-  ogImage: "/og.jpg",
+  ogImage: event.url + "/og.jpg",
   description: event.description + " @ " + formattedDate,
 });
 
