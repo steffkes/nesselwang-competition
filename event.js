@@ -10,3 +10,5 @@ export const event = {
     telephone: "+49 160 970 48 114",
   },
 };
+
+export const formattedDate = null;

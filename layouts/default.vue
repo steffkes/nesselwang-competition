@@ -1,5 +1,5 @@
 <script setup>
-const { event, formattedDate, registration } = await useEvent();
+const { event, formattedDate, registration } = await useGenericEvent();
 
 const activeModal = ref(false);
 const showNavigation = ref(false);

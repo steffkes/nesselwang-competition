@@ -1,5 +1,5 @@
 <script setup>
-const { event, formattedDate, registration } = await useEvent("nesselwang");
+const { event, formattedDate, registration } = await useNesselwangEvent();
 
 const activeModal = ref(false);
 const showNavigation = ref(false);
