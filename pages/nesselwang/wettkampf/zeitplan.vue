@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  layout: "nesselwang",
+});
+
 useSeoMeta({
   title: "Wettkampf-Zeitplan",
   description: "Was, wann & wo stattfindet",

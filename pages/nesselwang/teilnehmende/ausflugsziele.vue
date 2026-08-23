@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  layout: "nesselwang",
+});
+
 useSeoMeta({
   title: "Ausflugsziele",
   description: "Was es außenrum für dich/euch noch so gibt",
@@ -16,7 +20,7 @@ useSeoMeta({
   </section>
 
   <ImageSection
-    url="/images/ausflugsziele/alpspitzkick.jpg"
+    url="/nesselwang/images/ausflugsziele/alpspitzkick.jpg"
     :position="{ x: 65 }"
   >
     <!-- Alpspitzbahn Nesselwang GmbH & Co. KG  -->
@@ -35,7 +39,7 @@ useSeoMeta({
   </ImageSection>
 
   <ImageSection
-    url="/images/ausflugsziele/alpspitzcoaster.jpg"
+    url="/nesselwang/images/ausflugsziele/alpspitzcoaster.jpg"
     :position="{ x: 60 }"
   >
     <!-- https://www.youtube.com/watch?v=7FtgL8j-6L0 -->
@@ -56,7 +60,7 @@ useSeoMeta({
   </ImageSection>
 
   <ImageSection
-    url="/images/ausflugsziele/alpspitzsplash.jpg"
+    url="/nesselwang/images/ausflugsziele/alpspitzsplash.jpg"
     :position="{ x: 40 }"
   >
     <p class="title is-4">
@@ -74,7 +78,7 @@ useSeoMeta({
   </ImageSection>
 
   <ImageSection
-    url="/images/ausflugsziele/alpspitz-bade-center.jpg"
+    url="/nesselwang/images/ausflugsziele/alpspitz-bade-center.jpg"
     :position="{ x: 45 }"
   >
     <!-- https://www.youtube.com/watch?v=1o6mltqNYJQ -->
@@ -96,7 +100,7 @@ useSeoMeta({
   </ImageSection>
 
   <ImageSection
-    url="/images/ausflugsziele/walderlebniszentrum.jpg"
+    url="/nesselwang/images/ausflugsziele/walderlebniszentrum.jpg"
     :position="{ x: 30 }"
   >
     <p class="title is-4">
@@ -114,7 +118,7 @@ useSeoMeta({
   </ImageSection>
 
   <ImageSection
-    url="/images/ausflugsziele/schloss-neuschwanstein.jpg"
+    url="/nesselwang/images/ausflugsziele/schloss-neuschwanstein.jpg"
     :position="{ x: 20 }"
   >
     <!-- Jacek Dylag @ https://unsplash.com/photos/white-and-black-castle-DcQ8dSqEosA -->

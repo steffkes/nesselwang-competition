@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  layout: "nesselwang",
+});
+
 useSeoMeta({
   title: "Teilnehmende-Unterkunft",
   description: "Wo ihr in Nesselwang unterkommt",
@@ -76,32 +80,32 @@ useSeoMeta({
       <div class="grid is-col-min-12">
         <div class="cell">
           <figure class="image">
-            <img src="/images/explorer-hotel/explorer-hotel.jpg" />
+            <img src="/nesselwang/images/explorer-hotel/explorer-hotel.jpg" />
           </figure>
         </div>
         <div class="cell">
           <figure class="image">
-            <img src="/images/explorer-hotel/zimmer.jpg" />
+            <img src="/nesselwang/images/explorer-hotel/zimmer.jpg" />
           </figure>
         </div>
         <div class="cell">
           <figure class="image">
-            <img src="/images/explorer-hotel/eingang.jpg" />
+            <img src="/nesselwang/images/explorer-hotel/eingang.jpg" />
           </figure>
         </div>
         <div class="cell">
           <figure class="image">
-            <img src="/images/explorer-hotel/fruehstueck.jpg" />
+            <img src="/nesselwang/images/explorer-hotel/fruehstueck.jpg" />
           </figure>
         </div>
         <div class="cell">
           <figure class="image">
-            <img src="/images/explorer-hotel/info.jpg" />
+            <img src="/nesselwang/images/explorer-hotel/info.jpg" />
           </figure>
         </div>
         <div class="cell">
           <figure class="image">
-            <img src="/images/explorer-hotel/bike.jpg" />
+            <img src="/nesselwang/images/explorer-hotel/bike.jpg" />
           </figure>
         </div>
       </div>

@@ -11,19 +11,13 @@ useSeoMeta({
 
 useHead({
   titleTemplate: (pageTitle) =>
-    [pageTitle, event.name].filter(Boolean).join(" | "),
+    [pageTitle, "Fire Trail Allgäu"].filter(Boolean).join(" | "),
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
   meta: [
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "apple-mobile-web-app-title", content: event.name },
-  ],
-  script: [
-    {
-      type: "application/ld+json",
-      children: JSON.stringify(event),
-    },
   ],
   link: [
     {
@@ -77,120 +71,9 @@ useHead({
         style="opacity: 0.1; height: 20px; margin: 10px"
     /></a>
 
-    <section
-      class="section"
-      style="
-        min-height: 50vh;
-        background-image: url(/images/hero.jpg);
-        background-size: cover;
-        background-position: 40% 60%;
-      "
-    >
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-3 is-half-mobile">
-            <a href="/"
-              ><img
-                src="/fire-trail-nesselwang.svg"
-                alt="Logo Fire Trail Nesselwang"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container is-max-desktop">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a
-              @click="showNavigation = !showNavigation"
-              class="navbar-burger"
-              :class="{
-                'is-active': showNavigation,
-              }"
-              role="button"
-              aria-label="menu"
-              aria-expanded="false"
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
-
-          <div
-            class="navbar-menu"
-            :class="{ 'is-active': showNavigation, 'mb-6': showNavigation }"
-          >
-            <div class="navbar-start">
-              <a href="/" class="navbar-item"> Startseite </a>
-
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link"> Wettkampf </a>
-
-                <div class="navbar-dropdown">
-                  <a href="/wettkampf/zeitplan" class="navbar-item">
-                    Zeitplan
-                  </a>
-                  <a href="/wettkampf/tickets" class="navbar-item"> Tickets </a>
-                  <a href="/wettkampf/bestzeiten" class="navbar-item">
-                    Bestzeiten
-                  </a>
-                  <a href="/wettkampf/regeln" class="navbar-item"> Regeln </a>
-                  <a href="/wettkampf/strecke" class="navbar-item"> Strecke </a>
-                  <a href="/wettkampf/impressionen" class="navbar-item">
-                    Impressionen
-                  </a>
-                </div>
-              </div>
-
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link"> Teilnehmende </a>
-
-                <div class="navbar-dropdown">
-                  <a href="/teilnehmende/unterkunft" class="navbar-item">
-                    Unterkunft
-                  </a>
-                  <a href="/teilnehmende/ausflugsziele" class="navbar-item">
-                    Ausflugsziele
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="navbar-end is-hidden-mobile">
-              <div class="navbar-item">
-                <div class="buttons">
-                  <a href="/anmeldung" class="button is-success"
-                    >Anmeldung 2026</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
-
-        <p class="has-text-centered is-hidden-tablet">
-          <a href="/anmeldung" class="button is-success">Anmeldung 2026</a>
-        </p>
-      </div>
-    </section>
-
     <slot />
 
-    <PartnerGrid />
-
-    <section>
-      <div class="container is-max-desktop">
-        <p class="has-text-right">
-          <a href="/impressum" class="has-text-grey-light">Impressum</a>
-        </p>
-      </div>
-    </section>
-
-    <CompetitionsFooter mail="stefan.matheis@fire-trail-nesselwang.de" />
+    <CompetitionsFooter :event="event" />
   </div>
 </template>
 

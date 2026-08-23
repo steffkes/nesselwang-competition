@@ -13,25 +13,28 @@
       <div class="fixed-grid has-4-cols has-3-cols-mobile">
         <div class="grid">
           <div class="cell">
-            <img src="/images/partner/markt-nesselwang.svg" class="invert" />
+            <img
+              src="/nesselwang/images/partner/markt-nesselwang.svg"
+              class="invert"
+            />
           </div>
           <div class="cell">
-            <img src="/images/partner/alpspitzbahn-nesselwang.jpg" />
+            <img src="/nesselwang/images/partner/alpspitzbahn-nesselwang.jpg" />
           </div>
           <div class="cell">
-            <img src="/images/partner/sportheim-boeck.png" />
+            <img src="/nesselwang/images/partner/sportheim-boeck.png" />
           </div>
           <div class="cell">
-            <img src="/images/partner/bergwacht-nesselwang.png" />
+            <img src="/nesselwang/images/partner/bergwacht-nesselwang.png" />
           </div>
           <div class="cell">
-            <img src="/images/partner/feuerwehr-nesselwang.png" />
+            <img src="/nesselwang/images/partner/feuerwehr-nesselwang.png" />
           </div>
           <div class="cell">
-            <img src="/images/partner/explorer-hotels.svg" />
+            <img src="/nesselwang/images/partner/explorer-hotels.svg" />
           </div>
           <div class="cell">
-            <img src="/images/partner/schaeffler.svg" />
+            <img src="/nesselwang/images/partner/schaeffler.svg" />
           </div>
         </div>
       </div>

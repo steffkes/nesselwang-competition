@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  layout: "nesselwang",
+});
+
 useSeoMeta({
   title: "Wettkampf-Impressionen",
   description: "Vom Wasserfallweg, der Bayernkurve & vom Ziel",
@@ -41,7 +45,9 @@ const showThisImage = (event) =>
       <div class="content">
         <p>
           Eine animierte Darstellung der Strecke
-          <NuxtLink href="/wettkampf/strecke">findest du hier</NuxtLink>
+          <NuxtLink href="/nesselwang/wettkampf/strecke"
+            >findest du hier</NuxtLink
+          >
         </p>
       </div>
 
@@ -51,22 +57,22 @@ const showThisImage = (event) =>
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-01-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-01-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-02-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-02-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-03-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-03-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-04-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-04-small.jpg" />
                 </figure>
               </div>
             </div>
@@ -78,22 +84,22 @@ const showThisImage = (event) =>
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-06-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-06-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-05-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-05-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-07-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-07-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-08-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-08-small.jpg" />
                 </figure>
               </div>
             </div>
@@ -107,22 +113,22 @@ const showThisImage = (event) =>
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-09-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-09-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-11-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-11-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-12-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-12-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-10-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-10-small.jpg" />
                 </figure>
               </div>
             </div>
@@ -134,22 +140,22 @@ const showThisImage = (event) =>
             <div class="grid">
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-13-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-13-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-14-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-14-small.jpg" />
                 </figure>
               </div>
               <div class="cell is-row-span-2">
                 <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/images/ftn/ftn-15-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-15-small.jpg" />
                 </figure>
               </div>
               <div class="cell">
                 <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/images/ftn/ftn-16-small.jpg" />
+                  <img src="/nesselwang/images/ftn/ftn-16-small.jpg" />
                 </figure>
               </div>
             </div>
@@ -160,7 +166,9 @@ const showThisImage = (event) =>
       <div class="content">
         <p>
           Eine animierte Darstellung der Strecke
-          <NuxtLink href="/wettkampf/strecke">findest du hier</NuxtLink>
+          <NuxtLink href="/nesselwang/wettkampf/strecke"
+            >findest du hier</NuxtLink
+          >
         </p>
       </div>
     </div>

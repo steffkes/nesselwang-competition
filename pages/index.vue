@@ -1,41 +1,59 @@
 <template>
-  <div>
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="content">
-          <h1 class="title">Fire Trail Nesselwang</h1>
+  <div style="position: relative">
+    <div
+      style="
+        background-color: rgba(0, 0, 0, 1);
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        padding: 20px;
+        width: 100px;
+      "
+    >
+      <img
+        src="/fire-trail-allgaeu-symbol.svg"
+        alt="Symbol Fire Trail Allgäu"
+      />
+    </div>
 
-          <div class="notification is-info is-light">
-            <p>
-              Der 2. <strong>Fire Trail Nesselwang</strong> findet am
-              <strong>Samstag, 10.10.26</strong> an der
-              <strong>Alpspitzbahn Nesselwang</strong> statt.
-            </p>
-          </div>
-
-          <p>
-            Der Fire Trail Nesselwang bringt Feuerwehrsport raus und rauf auf
-            den Berg. Es geht über Treppenstufen, Waldwege, Steigungen und
-            Höhenmeter – mitten durch die Landschaft rund um Nesselwang.
-          </p>
-
-          <p>
-            Der Start ist am Explorer Hotel. Von dort führt die Strecke über den
-            Wasserfallweg, vorbei an der Mittelstation und durch die Bayernkurve
-            hinauf zum Sportheim Böck auf rund 1.500 Metern Höhe. Mit kompletter
-            Ausrüstung. Gegen die Uhr. Und mit dem Berg als Teil des Wettkampfs.
-          </p>
-
-          <p>
-            Und weil die Strecke öffentlich zugänglich ist, kann jeder dabei
-            sein. Am Wegesrand, an der Strecke, mitten im Geschehen. Anfeuern,
-            mitfiebern, mitgehen. Feuerwehrsport draußen, wo man ihn sehen und
-            erleben kann.
-          </p>
-        </div>
-      </div>
-    </section>
+    <div class="tabs is-fullwidth is-boxed">
+      <ul>
+        <li
+          style="
+            background-image: url(/immenstadt/images/hero.jpg);
+            background-position: 30% 30%;
+          "
+        >
+          <a><span>Immenstadt</span></a>
+        </li>
+        <li
+          style="
+            background-image: url(/nesselwang/images/hero.jpg);
+            background-position: 40% 60%;
+          "
+        >
+          <a href="/nesselwang"
+            ><span>Nesselwang</span>
+            <!--<span class="tag ml-2">10.10.26</span>-->
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.tabs li {
+  background-size: cover;
+}
+.tabs ul {
+  border-bottom: none;
+}
+.tabs a {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  padding-bottom: 75vh;
+}
+.tabs a:hover {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+</style>

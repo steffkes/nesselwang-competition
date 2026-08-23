@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  layout: "nesselwang",
+});
+
 useSeoMeta({
   title: "Wettkampf-Regeln",
   description: "Alles was ihr wissen müsst",

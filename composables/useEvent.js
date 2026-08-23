@@ -1,6 +1,4 @@
-import { event, formattedDate } from "../event";
-
-export const useEvent = async () => {
-  const { data: registration } = await useFetch("/api/event/registration");
-  return { event, formattedDate, registration };
+export const useEvent = async (location = "nesselwang") => {
+  const { event, formattedDate } = await import("../event-" + location);
+  return { event, formattedDate, registration: null };
 };

@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  layout: "nesselwang",
+});
+
 useSeoMeta({
   title: "Wettkampf-Strecke",
   description: "Damit auch alle das Ziel finden",
@@ -50,7 +54,7 @@ useSeoMeta({
 
         <p>
           Du kannst dir auch
-          <NuxtLink href="/wettkampf/impressionen"
+          <NuxtLink href="/nesselwang/wettkampf/impressionen"
             >weitere Impressionen der Strecke</NuxtLink
           >
           anschauen.
@@ -59,7 +63,7 @@ useSeoMeta({
         <p class="title is-4 mt-6">Das Höhenprofil</p>
         <p class="subtitle is-6">Dein Weg auf 1'5000 Meter</p>
 
-        <p><img src="/images/elevation-profile.svg" /></p>
+        <p><img src="/nesselwang/images/elevation-profile.svg" /></p>
 
         <p>
           Du kannst dir auch
