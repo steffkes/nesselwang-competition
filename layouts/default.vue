@@ -11,13 +11,19 @@ useSeoMeta({
 
 useHead({
   titleTemplate: (pageTitle) =>
-    [pageTitle, "Fire Trail Allgäu"].filter(Boolean).join(" | "),
+    [pageTitle, event.name].filter(Boolean).join(" | "),
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
   meta: [
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "apple-mobile-web-app-title", content: event.name },
+  ],
+  script: [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(event),
+    },
   ],
   link: [
     {
