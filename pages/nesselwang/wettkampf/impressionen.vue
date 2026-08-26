@@ -8,25 +8,46 @@ useSeoMeta({
   description: "Vom Wasserfallweg, der Bayernkurve & vom Ziel",
 });
 
-const imageToShow = ref(false);
-const showThisImage = (event) =>
-  (imageToShow.value = event.target.src.replace(/-small/, "-large"));
+const containerRef = ref(null);
+const slides = ref([
+  "/nesselwang/images/impressionen/DSC0620.jpg",
+  "/nesselwang/images/impressionen/DSC0669.jpg",
+  "/nesselwang/images/impressionen/DSC0680.jpg",
+  "/nesselwang/images/impressionen/DSC1390.jpg",
+  "/nesselwang/images/impressionen/DSC1399.jpg",
+  "/nesselwang/images/impressionen/DSC0764.jpg",
+  "/nesselwang/images/impressionen/DSC1080.jpg",
+  "/nesselwang/images/impressionen/DSC1616.jpg",
+  "/nesselwang/images/impressionen/DSC1767.jpg",
+  "/nesselwang/images/impressionen/DSC1941.jpg",
+  "/nesselwang/images/impressionen/DSC1988.jpg",
+  "/nesselwang/images/impressionen/DSC2035.jpg",
+  "/nesselwang/images/impressionen/DSC1715.jpg",
+  "/nesselwang/images/impressionen/DSC2053.jpg",
+  "/nesselwang/images/impressionen/DJI_20251018122829_0010_D.jpg",
+  "/nesselwang/images/impressionen/DSC2117.jpg",
+  "/nesselwang/images/impressionen/DSC2152.jpg",
+  "/nesselwang/images/impressionen/DSC2167.jpg",
+]);
+
+const swiper = useSwiper(containerRef, {
+  loop: true,
+  effect: "fade",
+  fadeEffect: {
+    crossFade: true,
+  },
+  freeMode: {
+    enabled: true,
+    momentum: false,
+  },
+});
+
+onMounted(() => {
+  console.log(swiper.instance);
+});
 </script>
 
 <template>
-  <div
-    class="modal"
-    :class="{ 'is-active': imageToShow }"
-    @click="imageToShow = false"
-  >
-    <div class="modal-background"></div>
-    <div class="modal-content">
-      <p class="image">
-        <img v-if="imageToShow" :src="imageToShow" />
-      </p>
-    </div>
-  </div>
-
   <section class="section">
     <div class="container is-max-desktop">
       <h1 class="title">Der erste Eindruck zählt</h1>
@@ -51,119 +72,33 @@ const showThisImage = (event) =>
         </p>
       </div>
 
-      <div class="columns is-2">
-        <div class="column">
-          <div class="fixed-grid has-2-cols">
-            <div class="grid">
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-01-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-02-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-03-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-04-small.jpg" />
-                </figure>
-              </div>
-            </div>
+      <ClientOnly>
+        <div id="wrapper">
+          <swiper-container
+            ref="containerRef"
+            :init="false"
+            :pagination="{
+              clickable: true,
+            }"
+          >
+            <swiper-slide
+              v-for="(slide, idx) in slides"
+              :key="idx"
+              :style="{
+                backgroundImage: `url(${slide})`,
+              }"
+            >
+            </swiper-slide>
+          </swiper-container>
+
+          <div id="navigation">
+            <a id="prev" @click="swiper.prev()">‹</a>
+            <a id="next" @click="swiper.next()">›</a>
           </div>
         </div>
+      </ClientOnly>
 
-        <div class="column">
-          <div class="fixed-grid has-2-cols">
-            <div class="grid">
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-06-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-05-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-07-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-08-small.jpg" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="columns is-2">
-        <div class="column">
-          <div class="fixed-grid has-2-cols">
-            <div class="grid">
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-09-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-11-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-12-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-10-small.jpg" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="fixed-grid has-2-cols">
-            <div class="grid">
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-13-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-14-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell is-row-span-2">
-                <figure @click="showThisImage" class="image is-3by4">
-                  <img src="/nesselwang/images/ftn/ftn-15-small.jpg" />
-                </figure>
-              </div>
-              <div class="cell">
-                <figure @click="showThisImage" class="image is-4by3">
-                  <img src="/nesselwang/images/ftn/ftn-16-small.jpg" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="content">
+      <div class="content mt-4">
         <p>
           Eine animierte Darstellung der Strecke
           <NuxtLink href="/nesselwang/wettkampf/strecke"
@@ -175,4 +110,44 @@ const showThisImage = (event) =>
   </section>
 </template>
 
-<style scoped></style>
+<style lang="css">
+#wrapper,
+swiper-slide {
+  height: 100vh;
+}
+
+#wrapper {
+  position: relative;
+}
+
+swiper-slide {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#navigation a {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  z-index: 5;
+  height: 100%;
+  width: 50vw;
+  font-size: 1000%;
+  align-content: center;
+}
+
+#navigation a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#wrapper #prev {
+  left: 0;
+  padding-left: 2vw;
+}
+
+#wrapper #next {
+  right: 0;
+  padding-right: 2vw;
+  text-align: right;
+}
+</style>

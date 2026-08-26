@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     inlineStyles: false,
   },
   extends: ["github:steffkes/competitions-layer"],
-  modules: ["@nuxtjs/plausible"],
+  modules: ["@nuxtjs/plausible", "nuxt-swiper"],
   plausible: {
     domain: new URL(event.url).hostname.replace(/^www\./, ""),
   },
