@@ -116,6 +116,13 @@ swiper-slide {
   height: 100vh;
 }
 
+@media screen and (max-width: 767px) {
+  #wrapper,
+  swiper-slide {
+    height: 50vh;
+  }
+}
+
 #wrapper {
   position: relative;
 }
