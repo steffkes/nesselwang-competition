@@ -192,7 +192,9 @@ useHead({
         </nav>
 
         <p class="has-text-centered is-hidden-tablet">
-          <a href="/anmeldung" class="button is-success">Anmeldung 2026</a>
+          <a href="/nesselwang/anmeldung" class="button is-success"
+            >Anmeldung 2026</a
+          >
         </p>
       </div>
     </section>
