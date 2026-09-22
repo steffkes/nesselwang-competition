@@ -34,7 +34,10 @@
             <img src="/nesselwang/images/partner/explorer-hotels.svg" />
           </div>
           <div class="cell">
-            <img src="/nesselwang/images/partner/schaeffler.svg" />
+            <img
+              src="/nesselwang/images/partner/schaeffler.svg"
+              class="reduced"
+            />
           </div>
           <div class="cell">
             <img src="/nesselwang/images/partner/kask.svg" />
@@ -58,5 +61,9 @@ img {
 
 img.invert {
   filter: invert(1);
+}
+
+img.reduced {
+  opacity: 0.7;
 }
 </style>
