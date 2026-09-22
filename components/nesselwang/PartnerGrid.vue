@@ -36,6 +36,9 @@
           <div class="cell">
             <img src="/nesselwang/images/partner/schaeffler.svg" />
           </div>
+          <div class="cell">
+            <img src="/nesselwang/images/partner/kask.svg" />
+          </div>
         </div>
       </div>
     </div>
