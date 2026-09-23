@@ -13,17 +13,13 @@ useSeoMeta({
   <section class="section">
     <div class="container is-max-desktop">
       <h1 class="title">Wo du in Nesselwang unterkommst</h1>
-      <p class="subtitle">
-        Direkt an der Wettkampf-Strecke .. oder etwas weiter weg, für Jeden
-        etwas dabei
-      </p>
+      <p class="subtitle">Direkt an der Wettkampf-Strecke ..</p>
 
       <p class="title is-4 mt-6">Explorer Hotel Nesselwang</p>
       <p class="subtitle is-6">Übernachtung & Frühstück</p>
 
       <div class="notification is-info">
         <p>
-          <strong>Buchungsstichwort: „Feuerwehr“</strong><br />
           📞 <a href="tel:004983619989000">+49 (8361) 998 - 9000</a><br />
           ✉️
           <a href="mailto:neuschwanstein@explorer-hotels.com"
@@ -44,29 +40,6 @@ useSeoMeta({
             Fitnessraum
           </li>
           <li>Gratis WLAN-Nutzung im gesamten Hotel</li>
-        </ul>
-        <p>
-          Der Preis inklusive der genannten Leistungen beträgt vom 10.10. –
-          11.10.2026:
-        </p>
-        <ul>
-          <li>€ 79,80 pro Person pro Übernachtung im Doppelzimmer</li>
-          <li>
-            € 124,80 pro Person pro Übernachtung im Doppelzimmer zur
-            Einzelnutzung
-          </li>
-        </ul>
-
-        <p>
-          Eine zusätzliche Übernachtung von 09.10. - 10.10. ist auf Anfrage
-          möglich. Der Kurbeitrag wird separat berechnet (z. Zt. € 2,10 pro
-          Person pro Nacht).
-        </p>
-
-        <p>Parkplatz:</p>
-        <ul>
-          <li>Außenstellplatz: € 1,00 pro PKW pro Nacht</li>
-          <li>Tiefgaragenstellplatz: € 8,80 pro PKW pro Nacht</li>
         </ul>
 
         <p>
