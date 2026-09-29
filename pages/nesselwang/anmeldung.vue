@@ -9,9 +9,13 @@ definePageMeta({
     <div class="container is-max-desktop">
       <p class="mb-4">
         Bitte beachtet
-        <NuxtLink href="/wettkampf/tickets"> unsere Ticket-Preise</NuxtLink>
+        <NuxtLink href="/nesselwang/wettkampf/tickets">
+          unsere Ticket-Preise</NuxtLink
+        >
         sowie
-        <NuxtLink href="/wettkampf/regeln"> die Wettkampf-Regeln</NuxtLink>.
+        <NuxtLink href="/nesselwang/wettkampf/regeln">
+          die Wettkampf-Regeln</NuxtLink
+        >.
       </p>
 
       <iframe
