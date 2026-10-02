@@ -164,6 +164,12 @@ useHead({
 
                 <div class="navbar-dropdown">
                   <a
+                    href="/nesselwang/teilnehmende/anfahrt"
+                    class="navbar-item"
+                  >
+                    Anfahrt
+                  </a>
+                  <a
                     href="/nesselwang/teilnehmende/unterkunft"
                     class="navbar-item"
                   >
