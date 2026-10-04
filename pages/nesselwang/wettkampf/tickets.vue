@@ -14,6 +14,10 @@ useSeoMeta({
     <div class="container is-max-desktop">
       <h1 class="title">Tickets</h1>
 
+      <div class="notification is-info">
+        <p>Ab 05.10.2026 ist keine Anmeldung mehr möglich.</p>
+      </div>
+
       <table class="table is-fullwidth">
         <thead>
           <tr>
@@ -33,15 +37,13 @@ useSeoMeta({
             <td class="ar">50 €</td>
             <td class="ar">100 €</td>
           </tr>
-          <tr class="is-selected">
-            <td class="dt">11.09.2026 – 03.10.2026</td>
+          <tr>
+            <td class="dt">11.09.2026 – 04.10.2026</td>
             <td class="ar">60 €</td>
             <td class="ar">110 €</td>
           </tr>
         </tbody>
       </table>
-
-      <p>Ab 04.10.2026 ist keine Anmeldung mehr möglich.</p>
     </div>
   </section>
 </template>
