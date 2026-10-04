@@ -15,23 +15,14 @@ useSeoMeta({
       <h1 class="title">Wie du zu uns kommst</h1>
       <p class="subtitle">Wie, wo & was</p>
 
-      <div class="notification is-danger">
-        <p>
-          <strong
-            >Der Parkplatz der Alpspitzbahn wird bitte nicht benutzt.</strong
-          >
-
-          Ihr dürft am Samstag kostenlos mit der Bahn fahren. Haltet im Gegenzug
-          bitte die Parkplätze direkt an der Bahn für die zahlenden Gäste frei.
-        </p>
-      </div>
-
       <div class="content">
         <h3>Freitag</h3>
 
         <div class="columns">
           <div class="column is-6 is-offset-6">
-            <h4>Abends: Pasta-Party & Startnummern</h4>
+            <p class="mb-1">
+              <strong>Abends</strong>: Pasta-Party & Startnummern
+            </p>
             <p>
               <a href="https://maps.app.goo.gl/7hoJtU971vW1Dr3v5">
                 Gerätehaus Freiwillige Feuerwehr Nesselwang<br />
@@ -45,16 +36,31 @@ useSeoMeta({
 
         <div class="columns">
           <div class="column">
-            <h4>Morgens: Parken für den Wettkampf</h4>
+            <p class="mb-1">
+              <strong>Morgens</strong>: Parken für den Wettkampf
+            </p>
             <p>
               <a href="https://maps.app.goo.gl/JRcaDuA2LbCFgN3e6">
                 Parkplatz Firma Endress+Hauser<br />
                 Obere Wank 1, 87484 Nesselwang
               </a>
             </p>
+
+            <div class="notification is-warning">
+              <p>
+                <strong
+                  >Der Parkplatz der Alpspitzbahn wird bitte nicht für den
+                  Wettkampf benutzt.</strong
+                >
+
+                Ihr dürft am Samstag kostenlos mit der Bahn fahren. Haltet im
+                Gegenzug bitte die Parkplätze direkt an der Bahn für die
+                zahlenden Gäste frei.
+              </p>
+            </div>
           </div>
           <div class="column">
-            <h4>Abends: Grill-Party</h4>
+            <p class="mb-1"><strong>Abends</strong>: Grill-Party</p>
             <p>
               <a href="https://maps.app.goo.gl/7hoJtU971vW1Dr3v5">
                 Gerätehaus Freiwillige Feuerwehr Nesselwang<br />
@@ -66,7 +72,7 @@ useSeoMeta({
       </div>
 
       <figure class="image">
-        <img src="/nesselwang/images/anfahrt.svg" />
+        <img src="/nesselwang/images/lageplan.svg" />
       </figure>
       <p>
         <a

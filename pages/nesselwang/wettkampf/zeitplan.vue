@@ -12,7 +12,7 @@ useSeoMeta({
 <template>
   <section class="section">
     <div class="container is-max-desktop">
-      <h1 class="title">Der <em>vorläufige</em> Ablauf</h1>
+      <h1 class="title">Der Ablauf</h1>
 
       <div class="content">
         <h3>Freitag</h3>
@@ -32,8 +32,10 @@ useSeoMeta({
 
         <div class="notification is-info">
           <p>
-            Startschuss (für Einzel und Staffel) <strong>um 10:00 Uhr</strong>,
-            danach Einzelstart alle 30 Sekunden (nach aufsteigender Startnummer)
+            Bitte beachtet die
+            <a href="/nesselwang/teilnehmende/anfahrt"
+              >Hinweise zum Parken am Samstag</a
+            >!
           </p>
         </div>
 
@@ -52,6 +54,13 @@ useSeoMeta({
             Nesselwang (Gerätehaus offen ab 17:00 Uhr)
           </li>
         </ul>
+
+        <div class="notification mt-6">
+          <p>
+            Startschuss (für Einzel und Staffel) <strong>um 10:00 Uhr</strong>,
+            danach Einzelstart alle 30 Sekunden (nach aufsteigender Startnummer)
+          </p>
+        </div>
       </div>
     </div>
   </section>
