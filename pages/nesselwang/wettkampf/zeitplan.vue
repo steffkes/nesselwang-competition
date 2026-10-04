@@ -50,7 +50,7 @@ useSeoMeta({
           </li>
           <li>
             <span class="tag is-light">10:00</span> Startschuss für den ersten
-            Läufer
+            Läufer (jeweils Einzel als auch Staffel)
           </li>
           <li><span class="tag is-light">~13:00</span> Siegerehrung</li>
           <li>
