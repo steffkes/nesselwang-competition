@@ -191,6 +191,11 @@ useHead({
                   <a href="/nesselwang/anmeldung" class="button is-success"
                     >Anmeldung 2026</a
                   >
+                  <a
+                    href="//my.raceresult.com/387452/participants"
+                    class="button is-info"
+                    >Startliste 2026</a
+                  >
                 </div>
               </div>
             </div>
@@ -200,6 +205,11 @@ useHead({
         <p class="has-text-centered is-hidden-tablet">
           <a href="/nesselwang/anmeldung" class="button is-success"
             >Anmeldung 2026</a
+          >
+          <a
+            href="//my.raceresult.com/387452/participants"
+            class="button is-info"
+            >Startliste 2026</a
           >
         </p>
       </div>
