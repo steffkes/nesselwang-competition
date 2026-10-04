@@ -41,8 +41,12 @@ useSeoMeta({
 
         <ul>
           <li>
-            <span class="tag is-light">07:30-09:30</span> Ausgabe der
+            <span class="tag is-light">07:30-09:00</span> Ausgabe der
             Startunterlagen (im Startbereich am Explorer Hotel)
+          </li>
+          <li>
+            <span class="tag is-light">09:15</span> Abmarsch der 2.
+            Staffel-Läufer zum Lift an die Mittelstation in die Wechselzone
           </li>
           <li>
             <span class="tag is-light">10:00</span> Startschuss für den ersten
