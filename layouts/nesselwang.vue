@@ -188,9 +188,6 @@ useHead({
             <div class="navbar-end is-hidden-mobile">
               <div class="navbar-item">
                 <div class="buttons">
-                  <a href="/nesselwang/anmeldung" class="button is-success"
-                    >Anmeldung 2026</a
-                  >
                   <a
                     href="//my.raceresult.com/387452/participants"
                     class="button is-info"
@@ -203,9 +200,6 @@ useHead({
         </nav>
 
         <p class="has-text-centered is-hidden-tablet">
-          <a href="/nesselwang/anmeldung" class="button is-success"
-            >Anmeldung 2026</a
-          >
           <a
             href="//my.raceresult.com/387452/participants"
             class="button is-info"
