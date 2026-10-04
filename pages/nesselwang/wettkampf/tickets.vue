@@ -41,10 +41,7 @@ useSeoMeta({
         </tbody>
       </table>
 
-      <p>
-        Ab 04.10.2026 (eine Woche vor der Veranstaltung) ist keine Anmeldung
-        mehr möglich.
-      </p>
+      <p>Ab 04.10.2026 ist keine Anmeldung mehr möglich.</p>
     </div>
   </section>
 </template>
