@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 useSeoMeta({
-  title: "Bestzeiten",
+  title: "Bestzeiten 2025",
 });
 </script>
 
@@ -17,8 +17,18 @@ useSeoMeta({
 
       <div class="tabs">
         <ul>
+          <li>
+            <a href="/nesselwang/wettkampf/bestzeiten">
+              <span>Gesamt</span>
+            </a>
+          </li>
+          <li>
+            <a href="/nesselwang/wettkampf/bestzeiten/2026">
+              <span>2026</span>
+            </a>
+          </li>
           <li class="is-active">
-            <a>
+            <a href="/nesselwang/wettkampf/bestzeiten/2025">
               <span>2025</span>
             </a>
           </li>
