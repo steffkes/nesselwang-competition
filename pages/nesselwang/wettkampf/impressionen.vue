@@ -58,8 +58,8 @@ onMounted(() => {
       <div class="notification is-info">
         <p>
           <a href="//go.fire-trail-nesselwang.de/impressionen"
-            >Alle Bilder vom 1. Fire Trail Nesselwang</a
-          >, der am Samstag, den 18.10.2025 stattfand.
+            >Alle Bilder vom 2. Fire Trail Nesselwang</a
+          >, der am Samstag, den 10.10.2026 stattfand.
         </p>
       </div>
 
