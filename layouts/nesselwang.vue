@@ -189,9 +189,9 @@ useHead({
               <div class="navbar-item">
                 <div class="buttons">
                   <a
-                    href="//my.raceresult.com/387452/participants"
-                    class="button is-info"
-                    >Startliste 2026</a
+                    href="//my.raceresult.com/387452/results"
+                    class="button is-success"
+                    >Ergebnisse 2026</a
                   >
                 </div>
               </div>
@@ -200,10 +200,8 @@ useHead({
         </nav>
 
         <p class="has-text-centered is-hidden-tablet">
-          <a
-            href="//my.raceresult.com/387452/participants"
-            class="button is-info"
-            >Startliste 2026</a
+          <a href="//my.raceresult.com/387452/results" class="button is-success"
+            >Ergebnisse 2026</a
           >
         </p>
       </div>
